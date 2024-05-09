@@ -15,6 +15,7 @@ import shutil
 import git
 
 from server import PromptServer
+sys.path.append(os.path.dirname(__file__))
 import manager_core as core
 import cm_global
 
