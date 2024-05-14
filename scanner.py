@@ -37,12 +37,22 @@ else:
 print(f"TEMP DIR: {temp_dir}")
 
 
+parse_cnt = 0
+
+
 def extract_nodes(code_text):
+    global parse_cnt
+
     try:
+        if parse_cnt % 100 == 0:
+            print(f".", end="", flush=True)
+        parse_cnt += 1
+
+        code_text = re.sub(r'\\[^"\']', '', code_text)
         parsed_code = ast.parse(code_text)
 
         assignments = (node for node in parsed_code.body if isinstance(node, ast.Assign))
-
+        
         for assignment in assignments:
             if isinstance(assignment.targets[0], ast.Name) and assignment.targets[0].id in ['NODE_CONFIG', 'NODE_CLASS_MAPPINGS']:
                 node_class_mappings = assignment.value
@@ -51,7 +61,12 @@ def extract_nodes(code_text):
             node_class_mappings = None
 
         if node_class_mappings:
-            s = set([key.s.strip() for key in node_class_mappings.keys if key is not None])
+            s = set()
+
+            for key in node_class_mappings.keys:
+                    if key is not None and isinstance(key.value, str):
+                        s.add(key.value.strip())
+                    
             return s
         else:
             return set()
@@ -78,20 +93,24 @@ def scan_in_file(filename, is_builtin=False):
 
     nodes |= extract_nodes(code)
 
-    pattern2 = r'^[^=]*_CLASS_MAPPINGS\["(.*?)"\]'
-    keys = re.findall(pattern2, code)
-    for key in keys:
-        nodes.add(key.strip())
+    def extract_keys(pattern, code):
+        keys = re.findall(pattern, code)
+        return {key.strip() for key in keys}
 
-    pattern3 = r'^[^=]*_CLASS_MAPPINGS\[\'(.*?)\'\]'
-    keys = re.findall(pattern3, code)
-    for key in keys:
-        nodes.add(key.strip())
+    def update_nodes(nodes, new_keys):
+        nodes |= new_keys
 
-    pattern4 = r'@register_node\("(.+)",\s*\".+"\)'
-    keys = re.findall(pattern4, code)
-    for key in keys:
-        nodes.add(key.strip())
+    patterns = [
+        r'^[^=]*_CLASS_MAPPINGS\["(.*?)"\]',
+        r'^[^=]*_CLASS_MAPPINGS\[\'(.*?)\'\]',
+        r'@register_node\("(.+)",\s*\".+"\)',
+        r'"(\w+)"\s*:\s*{"class":\s*\w+\s*'
+    ]
+
+    with concurrent.futures.ThreadPoolExecutor() as executor:
+        futures = {executor.submit(extract_keys, pattern, code): pattern for pattern in patterns}
+        for future in concurrent.futures.as_completed(futures):
+            update_nodes(nodes, future.result())
 
     matches = regex.findall(code)
     for match in matches:
@@ -272,22 +291,34 @@ def update_custom_nodes():
                         repo = g.get_repo(owner_repo)
 
                         last_update = repo.pushed_at.strftime("%Y-%m-%d %H:%M:%S") if repo.pushed_at else 'N/A'
-                        github_stats[url] = {
+                        item = {
                             "stars": repo.stargazers_count,
                             "last_update": last_update,
                             "cached_time": datetime.datetime.now().timestamp(),
                         }
-                        with open(GITHUB_STATS_CACHE_FILENAME, 'w', encoding='utf-8') as file:
-                            json.dump(github_stats, file, ensure_ascii=False, indent=4)
+                        return url, item
                     else:
                         print(f"\nInvalid URL format for GitHub repository: {url}\n")
                 except Exception as e:
                     print(f"\nERROR on {url}\n{e}")
 
+                return None
+
             # resolve unresolved urls
-            for url, title, preemptions, node_pattern in git_url_titles_preemptions:
-                if url not in github_stats:
-                    renew_stat(url)
+            with concurrent.futures.ThreadPoolExecutor(11) as executor:
+                futures = []
+                for url, title, preemptions, node_pattern in git_url_titles_preemptions:
+                    if url not in github_stats:
+                        futures.append(executor.submit(renew_stat, url))
+
+                for future in concurrent.futures.as_completed(futures):
+                    url_item = future.result()
+                    if url_item is not None:
+                        url, item = url_item
+                        github_stats[url] = item
+
+            with open('github-stats-cache.json', 'w', encoding='utf-8') as file:
+                json.dump(github_stats, file, ensure_ascii=False, indent=4)
 
             # renew outdated cache
             outdated_urls = []
@@ -307,11 +338,11 @@ def update_custom_nodes():
             json.dump(github_stats, file, ensure_ascii=False, indent=4)
 
         print(f"Successfully written to {GITHUB_STATS_FILENAME}.")
-        
-    with concurrent.futures.ThreadPoolExecutor(11) as executor:
-        if not skip_stat_update:
-            executor.submit(process_git_stats, git_url_titles_preemptions)  # One single thread for `process_git_stats()`. Runs concurrently with `process_git_url_title()`.
 
+    if not skip_stat_update:
+        process_git_stats(git_url_titles_preemptions)
+
+    with concurrent.futures.ThreadPoolExecutor(11) as executor:
         for url, title, preemptions, node_pattern in git_url_titles_preemptions:
             executor.submit(process_git_url_title, url, title, preemptions, node_pattern)
 
@@ -446,3 +477,4 @@ updated_node_info = update_custom_nodes()
 print("\n# 'extension-node-map.json' file is generated.\n")
 gen_json(updated_node_info)
 
+print("\nDONE.\n")

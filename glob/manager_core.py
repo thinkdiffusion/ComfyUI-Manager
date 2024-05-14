@@ -15,6 +15,7 @@ import threading
 import json
 import time
 import yaml
+import zipfile
 
 glob_path = os.path.join(os.path.dirname(__file__))  # ComfyUI-Manager/glob
 sys.path.append(glob_path)
@@ -22,7 +23,7 @@ sys.path.append(glob_path)
 import cm_global
 from manager_util import *
 
-version = [2, 27, 2]
+version = [2, 32, 7]
 version_str = f"V{version[0]}.{version[1]}" + (f'.{version[2]}' if len(version) > 2 else '')
 
 comfyui_manager_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -203,7 +204,8 @@ def write_config():
         'double_click_policy': get_config()['double_click_policy'],
         'windows_selector_event_loop_policy': get_config()['windows_selector_event_loop_policy'],
         'model_download_by_agent': get_config()['model_download_by_agent'],
-        'downgrade_blacklist': get_config()['downgrade_blacklist']
+        'downgrade_blacklist': get_config()['downgrade_blacklist'],
+        'disable_unsecure_features': get_config()['disable_unsecure_features'],
     }
     with open(config_path, 'w') as configfile:
         config.write(configfile)
@@ -221,14 +223,15 @@ def read_config():
                     'git_exe': default_conf['git_exe'] if 'git_exe' in default_conf else '',
                     'channel_url': default_conf['channel_url'] if 'channel_url' in default_conf else 'https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main',
                     'share_option': default_conf['share_option'] if 'share_option' in default_conf else 'all',
-                    'bypass_ssl': default_conf['bypass_ssl'] if 'bypass_ssl' in default_conf else False,
-                    'file_logging': default_conf['file_logging'] if 'file_logging' in default_conf else True,
+                    'bypass_ssl': default_conf['bypass_ssl'].lower() == 'true' if 'bypass_ssl' in default_conf else False,
+                    'file_logging': default_conf['file_logging'].lower() == 'true' if 'file_logging' in default_conf else True,
                     'default_ui': default_conf['default_ui'] if 'default_ui' in default_conf else 'none',
                     'component_policy': default_conf['component_policy'] if 'component_policy' in default_conf else 'workflow',
                     'double_click_policy': default_conf['double_click_policy'] if 'double_click_policy' in default_conf else 'copy-all',
-                    'windows_selector_event_loop_policy': default_conf['windows_selector_event_loop_policy'] if 'windows_selector_event_loop_policy' in default_conf else False,
-                    'model_download_by_agent': default_conf['model_download_by_agent'] if 'model_download_by_agent' in default_conf else False,
+                    'windows_selector_event_loop_policy': default_conf['windows_selector_event_loop_policy'].lower() == 'true' if 'windows_selector_event_loop_policy' in default_conf else False,
+                    'model_download_by_agent': default_conf['model_download_by_agent'].lower() == 'true' if 'model_download_by_agent' in default_conf else False,
                     'downgrade_blacklist': default_conf['downgrade_blacklist'] if 'downgrade_blacklist' in default_conf else '',
+                    'disable_unsecure_features': default_conf['disable_unsecure_features'].lower() == 'true' if 'disable_unsecure_features' in default_conf else False,
                }
 
     except Exception:
@@ -245,7 +248,8 @@ def read_config():
             'double_click_policy': 'copy-all',
             'windows_selector_event_loop_policy': False,
             'model_download_by_agent': False,
-            'downgrade_blacklist': ''
+            'downgrade_blacklist': '',
+            'disable_unsecure_features': False,
         }
 
 
@@ -563,7 +567,7 @@ def git_pull(path):
 
 async def get_data(uri, silent=False):
     if not silent:
-        print(f"FETCH DATA from: {uri}")
+        print(f"FETCH DATA from: {uri}", end="")
 
     if uri.startswith("http"):
         async with aiohttp.ClientSession(trust_env=True, connector=aiohttp.TCPConnector(verify_ssl=False)) as session:
@@ -575,6 +579,8 @@ async def get_data(uri, silent=False):
                 json_text = f.read()
 
     json_obj = json.loads(json_text)
+    if not silent:
+        print(f" [DONE]")
     return json_obj
 
 
@@ -1156,3 +1162,34 @@ async def extract_nodes_from_workflow(filepath, mode='local', channel_url='defau
 
     return used_exts, unknown_nodes
 
+
+def unzip(model_path):
+    if not os.path.exists(model_path):
+        print(f"[ComfyUI-Manager] unzip: File not found: {model_path}")
+        return False
+
+    base_dir = os.path.dirname(model_path)
+    filename = os.path.basename(model_path)
+    target_dir = os.path.join(base_dir, filename[:-4])
+
+    os.makedirs(target_dir, exist_ok=True)
+
+    with zipfile.ZipFile(model_path, 'r') as zip_ref:
+        zip_ref.extractall(target_dir)
+
+    # Check if there's only one directory inside the target directory
+    contents = os.listdir(target_dir)
+    if len(contents) == 1 and os.path.isdir(os.path.join(target_dir, contents[0])):
+        nested_dir = os.path.join(target_dir, contents[0])
+        # Move each file and sub-directory in the nested directory up to the target directory
+        for item in os.listdir(nested_dir):
+            shutil.move(os.path.join(nested_dir, item), os.path.join(target_dir, item))
+        # Remove the now empty nested directory
+        os.rmdir(nested_dir)
+
+    os.remove(model_path)
+    return True
+
+
+def is_unsecure_features_disabled():
+    return get_config()['disable_unsecure_features']
