@@ -278,6 +278,9 @@ def update_custom_nodes():
                 if is_rate_limit_exceeded():
                     return
 
+                if 'github.com' not in url:
+                    return None
+
                 print('.', end="")
                 sys.stdout.flush()
                 try:
@@ -317,9 +320,6 @@ def update_custom_nodes():
                         url, item = url_item
                         github_stats[url] = item
 
-            with open('github-stats-cache.json', 'w', encoding='utf-8') as file:
-                json.dump(github_stats, file, ensure_ascii=False, indent=4)
-
             # renew outdated cache
             outdated_urls = []
             for k, v in github_stats.items():
@@ -327,13 +327,25 @@ def update_custom_nodes():
                 if elapsed > 60*60*12:  # 12 hours
                     outdated_urls.append(k)
 
-            for url in outdated_urls:
-                renew_stat(url)
+            with concurrent.futures.ThreadPoolExecutor(11) as executor:
+                for url in outdated_urls:
+                    futures.append(executor.submit(renew_stat, url))
+
+                for future in concurrent.futures.as_completed(futures):
+                    url_item = future.result()
+                    if url_item is not None:
+                        url, item = url_item
+                        github_stats[url] = item
+                        
+            with open('github-stats-cache.json', 'w', encoding='utf-8') as file:
+                json.dump(github_stats, file, ensure_ascii=False, indent=4)
 
         with open(GITHUB_STATS_FILENAME, 'w', encoding='utf-8') as file:
             for v in github_stats.values():
                 if "cached_time" in v:
                     del v["cached_time"]
+
+            github_stats = dict(sorted(github_stats.items()))
 
             json.dump(github_stats, file, ensure_ascii=False, indent=4)
 
