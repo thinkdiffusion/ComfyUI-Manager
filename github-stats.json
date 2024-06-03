@@ -8,11 +8,11 @@
         "last_update": "2024-02-21 04:45:27"
     },
     "https://github.com/11cafe/comfyui-workspace-manager": {
-        "stars": 720,
-        "last_update": "2024-05-23 08:45:47"
+        "stars": 743,
+        "last_update": "2024-05-31 09:50:26"
     },
     "https://github.com/11dogzi/Comfyui-ergouzi-Nodes": {
-        "stars": 12,
+        "stars": 13,
         "last_update": "2024-05-23 00:08:39"
     },
     "https://github.com/1mckw/Comfyui-Gelbooru": {
@@ -20,15 +20,15 @@
         "last_update": "2024-05-27 07:45:00"
     },
     "https://github.com/42lux/ComfyUI-safety-checker": {
-        "stars": 15,
+        "stars": 16,
         "last_update": "2024-05-22 22:11:59"
     },
     "https://github.com/438443467/ComfyUI-GPT4V-Image-Captioner": {
         "stars": 16,
-        "last_update": "2024-05-09 08:47:13"
+        "last_update": "2024-05-31 12:30:22"
     },
     "https://github.com/54rt1n/ComfyUI-DareMerge": {
-        "stars": 32,
+        "stars": 34,
         "last_update": "2024-05-22 22:20:39"
     },
     "https://github.com/80sVectorz/ComfyUI-Static-Primitives": {
@@ -41,22 +41,30 @@
     },
     "https://github.com/A4P7J1N7M05OT/ComfyUI-PixelOE": {
         "stars": 6,
-        "last_update": "2024-05-23 00:25:59"
+        "last_update": "2024-06-02 14:57:59"
+    },
+    "https://github.com/AARG-FAN/Image-Raster-for-ComfyUI": {
+        "stars": 6,
+        "last_update": "2024-06-02 08:31:12"
     },
     "https://github.com/AI2lab/comfyUI-DeepSeek-2lab": {
         "stars": 2,
         "last_update": "2024-05-22 22:11:40"
+    },
+    "https://github.com/AIFSH/ComfyUI-ChatTTS": {
+        "stars": 20,
+        "last_update": "2024-05-30 09:51:20"
     },
     "https://github.com/AIFSH/ComfyUI-FishSpeech": {
         "stars": 6,
         "last_update": "2024-05-23 01:18:49"
     },
     "https://github.com/AIFSH/ComfyUI-GPT_SoVITS": {
-        "stars": 130,
+        "stars": 141,
         "last_update": "2024-05-15 01:13:11"
     },
     "https://github.com/AIFSH/ComfyUI-IP_LAP": {
-        "stars": 21,
+        "stars": 22,
         "last_update": "2024-04-30 01:42:53"
     },
     "https://github.com/AIFSH/ComfyUI-Live2DViewer": {
@@ -68,51 +76,59 @@
         "last_update": "2024-05-22 01:13:47"
     },
     "https://github.com/AIFSH/ComfyUI-RVC": {
-        "stars": 6,
+        "stars": 7,
         "last_update": "2024-04-30 09:22:22"
     },
     "https://github.com/AIFSH/ComfyUI-UVR5": {
-        "stars": 48,
+        "stars": 52,
         "last_update": "2024-05-09 13:19:51"
     },
     "https://github.com/AIFSH/ComfyUI-WhisperX": {
-        "stars": 14,
+        "stars": 15,
         "last_update": "2024-05-06 06:25:52"
     },
     "https://github.com/AIFSH/ComfyUI-XTTS": {
-        "stars": 12,
+        "stars": 14,
         "last_update": "2024-05-11 03:30:10"
+    },
+    "https://github.com/AIFSH/ComfyUI_V-Express": {
+        "stars": 54,
+        "last_update": "2024-06-01 02:59:44"
     },
     "https://github.com/AIGCTeam/ComfyUI_kkTranslator_nodes": {
         "stars": 5,
         "last_update": "2024-05-23 00:13:50"
     },
     "https://github.com/AIGODLIKE/AIGODLIKE-COMFYUI-TRANSLATION": {
-        "stars": 789,
-        "last_update": "2024-05-24 08:29:01"
+        "stars": 807,
+        "last_update": "2024-06-02 02:42:37"
     },
     "https://github.com/AIGODLIKE/AIGODLIKE-ComfyUI-Studio": {
         "stars": 196,
-        "last_update": "2024-05-24 17:46:47"
+        "last_update": "2024-06-02 08:21:04"
     },
     "https://github.com/AIGODLIKE/ComfyUI-CUP": {
         "stars": 3,
         "last_update": "2024-05-19 02:31:04"
     },
+    "https://github.com/AIGODLIKE/ComfyUI-ToonCrafter": {
+        "stars": 79,
+        "last_update": "2024-06-02 15:16:51"
+    },
     "https://github.com/AInseven/ComfyUI-fastblend": {
-        "stars": 90,
+        "stars": 97,
         "last_update": "2024-04-03 11:50:44"
     },
     "https://github.com/AIrjen/OneButtonPrompt": {
-        "stars": 688,
-        "last_update": "2024-05-22 15:12:58"
+        "stars": 703,
+        "last_update": "2024-05-31 12:59:42"
     },
     "https://github.com/ALatentPlace/ComfyUI_yanc": {
-        "stars": 9,
-        "last_update": "2024-05-21 13:24:28"
+        "stars": 12,
+        "last_update": "2024-06-02 08:04:02"
     },
     "https://github.com/AbdullahAlfaraj/Comfy-Photoshop-SD": {
-        "stars": 163,
+        "stars": 170,
         "last_update": "2023-12-12 12:23:04"
     },
     "https://github.com/AbyssYuan0/ComfyUI_BadgerTools": {
@@ -120,28 +136,32 @@
         "last_update": "2024-05-22 21:27:48"
     },
     "https://github.com/Acly/comfyui-inpaint-nodes": {
-        "stars": 359,
-        "last_update": "2024-05-27 07:10:06"
+        "stars": 371,
+        "last_update": "2024-05-27 20:16:47"
     },
     "https://github.com/Acly/comfyui-tooling-nodes": {
-        "stars": 192,
-        "last_update": "2024-05-25 10:28:37"
+        "stars": 196,
+        "last_update": "2024-05-29 15:43:39"
     },
     "https://github.com/AiMiDi/ComfyUI-Aimidi-nodes": {
         "stars": 0,
         "last_update": "2024-05-23 00:15:03"
     },
     "https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet": {
-        "stars": 611,
-        "last_update": "2024-05-21 18:50:56"
+        "stars": 617,
+        "last_update": "2024-05-29 14:11:41"
     },
     "https://github.com/Alysondao/Comfyui-Yolov8-JSON": {
-        "stars": 10,
-        "last_update": "2024-04-16 08:29:55"
+        "stars": 12,
+        "last_update": "2024-05-31 10:14:21"
     },
     "https://github.com/Amorano/Jovimetrix": {
-        "stars": 149,
-        "last_update": "2024-05-27 06:17:27"
+        "stars": 157,
+        "last_update": "2024-05-29 19:40:23"
+    },
+    "https://github.com/AonekoSS/ComfyUI-LoRA-Tuner": {
+        "stars": 2,
+        "last_update": "2024-05-29 10:34:05"
     },
     "https://github.com/AonekoSS/ComfyUI-SimpleCounter": {
         "stars": 1,
@@ -153,7 +173,7 @@
     },
     "https://github.com/ArcherFMY/Diffusion360_ComfyUI": {
         "stars": 14,
-        "last_update": "2024-05-27 02:32:47"
+        "last_update": "2024-05-28 03:14:17"
     },
     "https://github.com/ArdeniusAI/CPlus_Ardenius": {
         "stars": 0,
@@ -164,16 +184,24 @@
         "last_update": "2024-05-22 20:53:09"
     },
     "https://github.com/ArtVentureX/comfyui-animatediff": {
-        "stars": 616,
+        "stars": 620,
         "last_update": "2024-05-22 18:16:43"
+    },
+    "https://github.com/AshMartian/ComfyUI-DirGir": {
+        "stars": 8,
+        "last_update": "2024-05-29 22:28:55"
     },
     "https://github.com/AuroBit/ComfyUI-AnimateAnyone-reproduction": {
         "stars": 34,
         "last_update": "2024-02-29 10:19:36"
     },
     "https://github.com/AuroBit/ComfyUI-OOTDiffusion": {
-        "stars": 316,
+        "stars": 321,
         "last_update": "2024-03-26 02:44:57"
+    },
+    "https://github.com/AustinMroz/ComfyUI-DynamicOversampling": {
+        "stars": 0,
+        "last_update": "2024-05-31 19:47:42"
     },
     "https://github.com/AustinMroz/ComfyUI-SpliceTools": {
         "stars": 7,
@@ -192,7 +220,7 @@
         "last_update": "2024-05-23 00:08:50"
     },
     "https://github.com/BadCafeCode/masquerade-nodes-comfyui": {
-        "stars": 285,
+        "stars": 291,
         "last_update": "2024-05-22 17:55:57"
     },
     "https://github.com/Beinsezii/bsz-cui-extras": {
@@ -200,15 +228,15 @@
         "last_update": "2024-05-22 20:46:45"
     },
     "https://github.com/BennyKok/comfyui-deploy": {
-        "stars": 617,
-        "last_update": "2024-05-26 15:25:15"
+        "stars": 635,
+        "last_update": "2024-05-29 15:59:57"
     },
     "https://github.com/Big-Idea-Technology/ComfyUI-Book-Tools": {
-        "stars": 12,
+        "stars": 15,
         "last_update": "2024-04-26 07:53:44"
     },
     "https://github.com/Big-Idea-Technology/ComfyUI_LLM_Node": {
-        "stars": 45,
+        "stars": 48,
         "last_update": "2024-04-30 12:39:17"
     },
     "https://github.com/Billius-AI/ComfyUI-Path-Helper": {
@@ -232,23 +260,23 @@
         "last_update": "2024-05-23 00:23:44"
     },
     "https://github.com/BlenderNeko/ComfyUI_ADV_CLIP_emb": {
-        "stars": 253,
+        "stars": 257,
         "last_update": "2024-05-22 14:56:13"
     },
     "https://github.com/BlenderNeko/ComfyUI_Cutoff": {
-        "stars": 318,
+        "stars": 322,
         "last_update": "2024-05-22 15:01:45"
     },
     "https://github.com/BlenderNeko/ComfyUI_Noise": {
-        "stars": 197,
-        "last_update": "2024-05-22 14:56:25"
+        "stars": 198,
+        "last_update": "2024-06-02 13:52:14"
     },
     "https://github.com/BlenderNeko/ComfyUI_SeeCoder": {
         "stars": 35,
         "last_update": "2024-05-22 14:57:04"
     },
     "https://github.com/BlenderNeko/ComfyUI_TiledKSampler": {
-        "stars": 273,
+        "stars": 276,
         "last_update": "2024-05-22 14:56:49"
     },
     "https://github.com/CC-BryanOttho/ComfyUI_API_Manager": {
@@ -260,19 +288,19 @@
         "last_update": "2024-05-22 17:55:41"
     },
     "https://github.com/CavinHuang/comfyui-nodes-docs": {
-        "stars": 23,
-        "last_update": "2024-05-27 09:28:39"
+        "stars": 28,
+        "last_update": "2024-05-28 10:45:04"
     },
     "https://github.com/Chan-0312/ComfyUI-EasyDeforum": {
         "stars": 7,
         "last_update": "2024-05-22 23:22:14"
     },
     "https://github.com/Chan-0312/ComfyUI-IPAnimate": {
-        "stars": 61,
+        "stars": 63,
         "last_update": "2024-05-22 23:22:03"
     },
     "https://github.com/Chan-0312/ComfyUI-Prompt-Preview": {
-        "stars": 14,
+        "stars": 15,
         "last_update": "2024-02-27 11:30:38"
     },
     "https://github.com/Chaoses-Ib/ComfyUI_Ib_CustomNodes": {
@@ -280,7 +308,7 @@
         "last_update": "2024-04-05 11:14:24"
     },
     "https://github.com/Clybius/ComfyUI-Extra-Samplers": {
-        "stars": 46,
+        "stars": 47,
         "last_update": "2024-04-18 04:28:09"
     },
     "https://github.com/Clybius/ComfyUI-Latent-Modifiers": {
@@ -288,7 +316,7 @@
         "last_update": "2024-01-02 21:57:58"
     },
     "https://github.com/CosmicLaca/ComfyUI_Primere_Nodes": {
-        "stars": 71,
+        "stars": 72,
         "last_update": "2024-05-22 22:16:24"
     },
     "https://github.com/Danand/ComfyUI-ComfyCouple": {
@@ -300,11 +328,11 @@
         "last_update": "2024-05-26 08:00:23"
     },
     "https://github.com/Derfuu/Derfuu_ComfyUI_ModdedNodes": {
-        "stars": 273,
+        "stars": 279,
         "last_update": "2024-05-22 17:38:48"
     },
     "https://github.com/DigitalIO/ComfyUI-stable-wildcards": {
-        "stars": 19,
+        "stars": 18,
         "last_update": "2024-05-24 21:15:08"
     },
     "https://github.com/DimaChaichan/LAizypainter-Exporter-ComfyUI": {
@@ -336,35 +364,39 @@
         "last_update": "2024-05-23 00:12:17"
     },
     "https://github.com/ExponentialML/ComfyUI_Native_DynamiCrafter": {
-        "stars": 86,
+        "stars": 88,
         "last_update": "2024-05-23 00:12:28"
     },
     "https://github.com/ExponentialML/ComfyUI_VisualStylePrompting": {
-        "stars": 245,
+        "stars": 246,
         "last_update": "2024-05-23 00:12:41"
     },
     "https://github.com/Extraltodeus/ComfyUI-AutomaticCFG": {
-        "stars": 239,
-        "last_update": "2024-05-24 15:31:20"
+        "stars": 247,
+        "last_update": "2024-06-01 18:36:53"
     },
     "https://github.com/Extraltodeus/LoadLoraWithTags": {
-        "stars": 34,
+        "stars": 35,
         "last_update": "2024-05-22 20:36:32"
+    },
+    "https://github.com/Extraltodeus/Stable-Diffusion-temperature-settings": {
+        "stars": 12,
+        "last_update": "2024-06-01 14:44:26"
     },
     "https://github.com/Extraltodeus/Vector_Sculptor_ComfyUI": {
         "stars": 70,
-        "last_update": "2024-05-22 20:39:01"
+        "last_update": "2024-06-01 15:08:11"
     },
     "https://github.com/Extraltodeus/noise_latent_perlinpinpin": {
         "stars": 18,
         "last_update": "2024-05-22 20:36:19"
     },
     "https://github.com/Extraltodeus/sigmas_tools_and_the_golden_scheduler": {
-        "stars": 40,
+        "stars": 41,
         "last_update": "2024-05-22 20:36:48"
     },
     "https://github.com/Fannovel16/ComfyUI-Frame-Interpolation": {
-        "stars": 313,
+        "stars": 318,
         "last_update": "2024-05-21 00:52:49"
     },
     "https://github.com/Fannovel16/ComfyUI-Loopchain": {
@@ -372,7 +404,7 @@
         "last_update": "2023-12-15 14:25:35"
     },
     "https://github.com/Fannovel16/ComfyUI-MagickWand": {
-        "stars": 63,
+        "stars": 68,
         "last_update": "2024-05-20 14:13:55"
     },
     "https://github.com/Fannovel16/ComfyUI-MotionDiff": {
@@ -380,11 +412,11 @@
         "last_update": "2024-05-21 00:51:03"
     },
     "https://github.com/Fannovel16/ComfyUI-Video-Matting": {
-        "stars": 137,
+        "stars": 138,
         "last_update": "2024-05-21 00:51:54"
     },
     "https://github.com/Fannovel16/comfyui_controlnet_aux": {
-        "stars": 1428,
+        "stars": 1464,
         "last_update": "2024-05-24 11:05:47"
     },
     "https://github.com/Fantaxico/ComfyUI-GCP-Storage": {
@@ -400,7 +432,7 @@
         "last_update": "2024-05-23 19:09:18"
     },
     "https://github.com/Fihade/IC-Light-ComfyUI-Node": {
-        "stars": 3,
+        "stars": 4,
         "last_update": "2024-05-23 01:20:21"
     },
     "https://github.com/FizzleDorf/ComfyUI-AIT": {
@@ -408,7 +440,7 @@
         "last_update": "2024-05-16 23:55:47"
     },
     "https://github.com/FizzleDorf/ComfyUI_FizzNodes": {
-        "stars": 295,
+        "stars": 300,
         "last_update": "2024-05-25 04:05:51"
     },
     "https://github.com/FlyingFireCo/tiled_ksampler": {
@@ -416,8 +448,8 @@
         "last_update": "2024-05-22 23:15:17"
     },
     "https://github.com/ForeignGods/ComfyUI-Mana-Nodes": {
-        "stars": 170,
-        "last_update": "2024-05-23 00:15:14"
+        "stars": 171,
+        "last_update": "2024-05-29 18:29:05"
     },
     "https://github.com/Franck-Demongin/NX_PromptStyler": {
         "stars": 4,
@@ -429,7 +461,7 @@
     },
     "https://github.com/GMapeSplat/ComfyUI_ezXY": {
         "stars": 18,
-        "last_update": "2024-05-22 21:24:47"
+        "last_update": "2024-05-29 17:43:08"
     },
     "https://github.com/GTSuya-Studio/ComfyUI-Gtsuya-Nodes": {
         "stars": 7,
@@ -439,13 +471,17 @@
         "stars": 9,
         "last_update": "2024-05-23 01:17:07"
     },
+    "https://github.com/Goktug/comfyui-saveimage-plus": {
+        "stars": 0,
+        "last_update": "2024-05-30 18:16:57"
+    },
     "https://github.com/Gourieff/comfyui-reactor-node": {
-        "stars": 959,
-        "last_update": "2024-05-27 03:20:55"
+        "stars": 984,
+        "last_update": "2024-05-30 09:41:30"
     },
     "https://github.com/GraftingRayman/ComfyUI_GraftingRayman": {
-        "stars": 7,
-        "last_update": "2024-05-26 21:53:46"
+        "stars": 9,
+        "last_update": "2024-05-28 23:31:22"
     },
     "https://github.com/Guillaume-Fgt/ComfyUI_StableCascadeLatentRatio": {
         "stars": 3,
@@ -461,7 +497,7 @@
     },
     "https://github.com/Hangover3832/ComfyUI-Hangover-Nodes": {
         "stars": 27,
-        "last_update": "2024-04-06 11:02:44"
+        "last_update": "2024-06-02 10:28:19"
     },
     "https://github.com/Hangover3832/ComfyUI-Hangover-Recognize_Anything": {
         "stars": 13,
@@ -476,7 +512,7 @@
         "last_update": "2024-05-08 04:00:04"
     },
     "https://github.com/Haoming02/comfyui-floodgate": {
-        "stars": 24,
+        "stars": 25,
         "last_update": "2024-01-31 09:08:14"
     },
     "https://github.com/Haoming02/comfyui-menu-anchor": {
@@ -488,7 +524,7 @@
         "last_update": "2023-12-11 13:44:03"
     },
     "https://github.com/Haoming02/comfyui-tab-handler": {
-        "stars": 3,
+        "stars": 4,
         "last_update": "2023-12-14 08:24:49"
     },
     "https://github.com/HaydenReeve/ComfyUI-Better-Strings": {
@@ -528,7 +564,7 @@
         "last_update": "2024-05-23 00:22:46"
     },
     "https://github.com/JPS-GER/ComfyUI_JPS-Nodes": {
-        "stars": 30,
+        "stars": 31,
         "last_update": "2024-05-22 20:39:14"
     },
     "https://github.com/Jannchie/ComfyUI-J": {
@@ -536,15 +572,15 @@
         "last_update": "2024-05-23 00:16:12"
     },
     "https://github.com/JaredTherriault/ComfyUI-JNodes": {
-        "stars": 8,
-        "last_update": "2024-05-22 23:11:35"
+        "stars": 9,
+        "last_update": "2024-06-02 03:43:57"
     },
     "https://github.com/JcandZero/ComfyUI_GLM4Node": {
         "stars": 23,
         "last_update": "2024-05-22 23:12:46"
     },
     "https://github.com/Jcd1230/rembg-comfyui-node": {
-        "stars": 114,
+        "stars": 116,
         "last_update": "2024-05-22 17:58:34"
     },
     "https://github.com/JerryOrbachJr/ComfyUI-RandomSize": {
@@ -552,7 +588,7 @@
         "last_update": "2024-05-22 23:18:51"
     },
     "https://github.com/JettHu/ComfyUI-TCD": {
-        "stars": 62,
+        "stars": 68,
         "last_update": "2024-05-07 08:34:59"
     },
     "https://github.com/JettHu/ComfyUI_TGate": {
@@ -560,7 +596,7 @@
         "last_update": "2024-05-26 08:29:23"
     },
     "https://github.com/Jordach/comfy-plasma": {
-        "stars": 46,
+        "stars": 47,
         "last_update": "2024-05-22 18:08:28"
     },
     "https://github.com/Kaharos94/ComfyUI-Saveaswebp": {
@@ -576,7 +612,7 @@
         "last_update": "2024-05-23 01:20:32"
     },
     "https://github.com/Koishi-Star/Euler-Smea-Dyn-Sampler": {
-        "stars": 129,
+        "stars": 130,
         "last_update": "2024-05-12 15:49:06"
     },
     "https://github.com/KoreTeknology/ComfyUI-Universal-Styler": {
@@ -584,39 +620,39 @@
         "last_update": "2024-05-08 21:25:51"
     },
     "https://github.com/Kosinkadink/ComfyUI-Advanced-ControlNet": {
-        "stars": 383,
-        "last_update": "2024-05-26 19:36:41"
+        "stars": 391,
+        "last_update": "2024-05-29 06:59:31"
     },
     "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved": {
-        "stars": 2132,
+        "stars": 2165,
         "last_update": "2024-05-21 05:29:18"
     },
     "https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite": {
-        "stars": 355,
-        "last_update": "2024-05-23 19:46:21"
+        "stars": 370,
+        "last_update": "2024-05-31 18:30:58"
     },
     "https://github.com/KytraScript/ComfyUI_KytraWebhookHTTP": {
         "stars": 3,
         "last_update": "2024-05-23 00:21:43"
     },
     "https://github.com/LEv145/images-grid-comfy-plugin": {
-        "stars": 119,
-        "last_update": "2024-05-22 23:41:21"
+        "stars": 121,
+        "last_update": "2024-05-30 17:54:32"
     },
     "https://github.com/LarryJane491/Image-Captioning-in-ComfyUI": {
         "stars": 25,
         "last_update": "2024-05-22 23:08:11"
     },
     "https://github.com/LarryJane491/Lora-Training-in-Comfy": {
-        "stars": 219,
+        "stars": 227,
         "last_update": "2024-05-22 23:07:59"
     },
     "https://github.com/Layer-norm/comfyui-lama-remover": {
-        "stars": 44,
+        "stars": 49,
         "last_update": "2024-05-25 00:12:04"
     },
     "https://github.com/Lerc/canvas_tab": {
-        "stars": 122,
+        "stars": 123,
         "last_update": "2024-05-22 20:48:45"
     },
     "https://github.com/Limitex/ComfyUI-Calculation": {
@@ -624,11 +660,11 @@
         "last_update": "2024-05-22 22:18:40"
     },
     "https://github.com/Limitex/ComfyUI-Diffusers": {
-        "stars": 100,
+        "stars": 101,
         "last_update": "2024-05-22 22:18:57"
     },
     "https://github.com/Loewen-Hob/rembg-comfyui-node-better": {
-        "stars": 27,
+        "stars": 28,
         "last_update": "2024-05-23 00:32:53"
     },
     "https://github.com/LonicaMewinsky/ComfyUI-MakeFrame": {
@@ -648,11 +684,11 @@
         "last_update": "2024-05-22 23:21:49"
     },
     "https://github.com/LykosAI/ComfyUI-Inference-Core-Nodes": {
-        "stars": 10,
+        "stars": 12,
         "last_update": "2024-04-05 05:11:51"
     },
     "https://github.com/M1kep/ComfyLiterals": {
-        "stars": 9,
+        "stars": 10,
         "last_update": "2024-05-22 20:31:38"
     },
     "https://github.com/M1kep/ComfyUI-KepOpenAI": {
@@ -668,7 +704,7 @@
         "last_update": "2024-05-22 20:33:29"
     },
     "https://github.com/M1kep/Comfy_KepListStuff": {
-        "stars": 24,
+        "stars": 25,
         "last_update": "2024-05-22 20:31:26"
     },
     "https://github.com/M1kep/Comfy_KepMatteAnything": {
@@ -696,12 +732,16 @@
         "last_update": "2023-11-03 11:09:53"
     },
     "https://github.com/MaraScott/ComfyUI_MaraScott_Nodes": {
-        "stars": 46,
-        "last_update": "2024-05-27 01:50:40"
+        "stars": 48,
+        "last_update": "2024-05-31 23:45:29"
     },
     "https://github.com/MarcusNyne/m9-prompts-comfyui": {
         "stars": 0,
         "last_update": "2024-05-23 21:06:11"
+    },
+    "https://github.com/MariusKM/ComfyUI-BadmanNodes": {
+        "stars": 0,
+        "last_update": "2024-05-31 10:15:35"
     },
     "https://github.com/MarkoCa1/ComfyUI-Text": {
         "stars": 2,
@@ -711,20 +751,24 @@
         "stars": 14,
         "last_update": "2024-05-23 00:15:51"
     },
+    "https://github.com/Mason-McGough/ComfyUI-Mosaica": {
+        "stars": 3,
+        "last_update": "2024-05-29 12:57:49"
+    },
     "https://github.com/Millyarde/Pomfy": {
         "stars": 7,
         "last_update": "2024-05-22 22:22:48"
     },
     "https://github.com/MinusZoneAI/ComfyUI-Prompt-MZ": {
-        "stars": 50,
-        "last_update": "2024-05-23 18:16:06"
+        "stars": 55,
+        "last_update": "2024-06-02 08:46:20"
     },
     "https://github.com/MinusZoneAI/ComfyUI-StylizePhoto-MZ": {
-        "stars": 8,
+        "stars": 9,
         "last_update": "2024-05-23 01:13:32"
     },
     "https://github.com/Miosp/ComfyUI-FBCNN": {
-        "stars": 3,
+        "stars": 4,
         "last_update": "2024-05-24 12:13:08"
     },
     "https://github.com/MitoshiroPJ/comfyui_slothful_attention": {
@@ -732,19 +776,19 @@
         "last_update": "2024-05-22 22:09:15"
     },
     "https://github.com/MokkaBoss1/ComfyUI_Mokkaboss1": {
-        "stars": 13,
-        "last_update": "2024-05-27 09:19:45"
+        "stars": 14,
+        "last_update": "2024-05-27 11:16:36"
     },
     "https://github.com/MrForExample/ComfyUI-3D-Pack": {
-        "stars": 1526,
-        "last_update": "2024-05-26 16:12:55"
+        "stars": 1556,
+        "last_update": "2024-06-01 13:18:40"
     },
     "https://github.com/MrForExample/ComfyUI-AnimateAnyone-Evolved": {
-        "stars": 420,
+        "stars": 425,
         "last_update": "2024-02-02 14:19:37"
     },
     "https://github.com/Munkyfoot/ComfyUI-TextOverlay": {
-        "stars": 0,
+        "stars": 1,
         "last_update": "2024-02-27 22:56:42"
     },
     "https://github.com/Nestorchik/NStor-ComfyUI-Translation": {
@@ -764,7 +808,7 @@
         "last_update": "2024-05-22 20:34:46"
     },
     "https://github.com/NimaNzrii/comfyui-photoshop": {
-        "stars": 144,
+        "stars": 146,
         "last_update": "2024-05-22 22:12:15"
     },
     "https://github.com/NimaNzrii/comfyui-popup_preview": {
@@ -784,15 +828,15 @@
         "last_update": "2024-05-22 22:18:29"
     },
     "https://github.com/Nourepide/ComfyUI-Allor": {
-        "stars": 167,
+        "stars": 169,
         "last_update": "2024-05-22 18:11:17"
     },
     "https://github.com/Nuked88/ComfyUI-N-Nodes": {
-        "stars": 162,
+        "stars": 166,
         "last_update": "2024-05-21 19:52:44"
     },
     "https://github.com/Nuked88/ComfyUI-N-Sidebar": {
-        "stars": 325,
+        "stars": 340,
         "last_update": "2024-05-25 19:24:10"
     },
     "https://github.com/Off-Live/ComfyUI-off-suite": {
@@ -819,6 +863,10 @@
         "stars": 19,
         "last_update": "2024-05-22 18:21:10"
     },
+    "https://github.com/PnthrLeo/comfyUI-image-search": {
+        "stars": 0,
+        "last_update": "2024-06-01 09:50:50"
+    },
     "https://github.com/Pos13/comfyui-cyclist": {
         "stars": 15,
         "last_update": "2024-05-23 00:12:06"
@@ -835,16 +883,20 @@
         "stars": 15,
         "last_update": "2024-05-05 09:22:26"
     },
+    "https://github.com/Ron-Digital/ComfyUI-SceneGenerator": {
+        "stars": 2,
+        "last_update": "2024-05-28 18:02:38"
+    },
     "https://github.com/Ryuukeisyou/comfyui_face_parsing": {
         "stars": 33,
         "last_update": "2024-05-22 22:21:46"
     },
     "https://github.com/Ryuukeisyou/comfyui_io_helpers": {
-        "stars": 0,
+        "stars": 1,
         "last_update": "2024-05-22 22:22:59"
     },
     "https://github.com/SLAPaper/ComfyUI-Image-Selector": {
-        "stars": 50,
+        "stars": 53,
         "last_update": "2024-05-24 17:03:46"
     },
     "https://github.com/SLAPaper/ComfyUI-dpmpp_2m_alt-Sampler": {
@@ -856,28 +908,28 @@
         "last_update": "2024-05-22 18:15:52"
     },
     "https://github.com/SOELexicon/ComfyUI-LexTools": {
-        "stars": 19,
+        "stars": 22,
         "last_update": "2024-05-23 09:39:07"
     },
     "https://github.com/SayanoAI/Comfy-RVC": {
-        "stars": 0,
-        "last_update": "2024-05-13 05:43:49"
+        "stars": 1,
+        "last_update": "2024-06-01 18:44:48"
     },
     "https://github.com/Scholar01/ComfyUI-Keyframe": {
         "stars": 10,
         "last_update": "2024-02-01 16:57:40"
     },
     "https://github.com/SeaArtLab/ComfyUI-Long-CLIP": {
-        "stars": 41,
+        "stars": 49,
         "last_update": "2024-04-29 02:27:15"
     },
     "https://github.com/SeargeDP/SeargeSDXL": {
-        "stars": 718,
+        "stars": 727,
         "last_update": "2024-05-22 00:28:26"
     },
     "https://github.com/Seedsa/Fooocus_Nodes": {
-        "stars": 28,
-        "last_update": "2024-05-23 00:16:55"
+        "stars": 32,
+        "last_update": "2024-05-29 11:52:10"
     },
     "https://github.com/Shadetail/ComfyUI_Eagleshadow": {
         "stars": 1,
@@ -885,14 +937,14 @@
     },
     "https://github.com/Shinsplat/ComfyUI-Shinsplat": {
         "stars": 4,
-        "last_update": "2024-05-25 01:33:00"
+        "last_update": "2024-06-01 05:02:40"
     },
     "https://github.com/ShmuelRonen/ComfyUI-SVDResizer": {
         "stars": 1,
         "last_update": "2024-03-08 15:16:10"
     },
     "https://github.com/ShmuelRonen/ComfyUI_wav2lip": {
-        "stars": 20,
+        "stars": 23,
         "last_update": "2024-05-21 14:49:10"
     },
     "https://github.com/Shraknard/ComfyUI-Remover": {
@@ -903,6 +955,10 @@
         "stars": 18,
         "last_update": "2024-05-22 23:12:00"
     },
+    "https://github.com/Smirnov75/ComfyUI-mxToolkit": {
+        "stars": 1,
+        "last_update": "2024-06-02 16:50:06"
+    },
     "https://github.com/SoftMeng/ComfyUI_ImageToText": {
         "stars": 3,
         "last_update": "2024-04-07 07:27:14"
@@ -912,19 +968,23 @@
         "last_update": "2023-12-05 09:44:42"
     },
     "https://github.com/SoftMeng/ComfyUI_Mexx_Styler": {
-        "stars": 15,
+        "stars": 16,
         "last_update": "2024-04-06 06:49:01"
     },
     "https://github.com/Sorcerio/MBM-Music-Visualizer": {
         "stars": 13,
         "last_update": "2024-05-23 01:09:18"
     },
+    "https://github.com/SozeInc/ComfyUI-Mobile": {
+        "stars": 0,
+        "last_update": "2024-05-31 01:31:51"
+    },
     "https://github.com/SpaceKendo/ComfyUI-svd_txt2vid": {
         "stars": 6,
         "last_update": "2024-05-22 22:11:52"
     },
     "https://github.com/Stability-AI/ComfyUI-SAI_API": {
-        "stars": 35,
+        "stars": 36,
         "last_update": "2024-05-23 05:09:39"
     },
     "https://github.com/Stability-AI/stability-ComfyUI-nodes": {
@@ -936,15 +996,15 @@
         "last_update": "2024-03-04 09:33:57"
     },
     "https://github.com/StartHua/ComfyUI_PCDMs": {
-        "stars": 1,
+        "stars": 2,
         "last_update": "2024-05-22 23:21:14"
     },
     "https://github.com/StartHua/ComfyUI_Seg_VITON": {
-        "stars": 158,
+        "stars": 160,
         "last_update": "2024-05-22 23:20:17"
     },
     "https://github.com/StartHua/Comfyui_joytag": {
-        "stars": 13,
+        "stars": 15,
         "last_update": "2024-05-22 23:20:28"
     },
     "https://github.com/StartHua/Comfyui_segformer_b2_clothes": {
@@ -952,12 +1012,12 @@
         "last_update": "2024-05-22 23:20:39"
     },
     "https://github.com/SuperBeastsAI/ComfyUI-SuperBeasts": {
-        "stars": 87,
-        "last_update": "2024-05-26 05:44:18"
+        "stars": 93,
+        "last_update": "2024-06-01 20:27:53"
     },
     "https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes": {
-        "stars": 436,
-        "last_update": "2024-05-22 18:11:38"
+        "stars": 445,
+        "last_update": "2024-06-02 11:07:52"
     },
     "https://github.com/Sxela/ComfyWarp": {
         "stars": 21,
@@ -968,28 +1028,32 @@
         "last_update": "2024-05-22 21:07:45"
     },
     "https://github.com/THtianhao/ComfyUI-FaceChain": {
-        "stars": 77,
+        "stars": 79,
         "last_update": "2024-05-24 08:41:14"
     },
     "https://github.com/THtianhao/ComfyUI-Portrait-Maker": {
-        "stars": 164,
+        "stars": 166,
         "last_update": "2024-05-22 21:18:05"
     },
     "https://github.com/TJ16th/comfyUI_TJ_NormalLighting": {
-        "stars": 124,
+        "stars": 125,
         "last_update": "2024-05-23 00:25:37"
+    },
+    "https://github.com/TMElyralab/Comfyui-MusePose": {
+        "stars": 117,
+        "last_update": "2024-06-02 02:14:36"
     },
     "https://github.com/TRI3D-LC/tri3d-comfyui-nodes": {
         "stars": 16,
-        "last_update": "2024-05-22 21:14:49"
+        "last_update": "2024-05-30 06:46:34"
     },
     "https://github.com/TW-CUI/TW-CUI-Util": {
         "stars": 0,
-        "last_update": "2024-05-27 03:15:44"
+        "last_update": "2024-05-31 13:49:50"
     },
     "https://github.com/TaiTair/comfyui-simswap": {
-        "stars": 4,
-        "last_update": "2024-05-23 01:15:21"
+        "stars": 5,
+        "last_update": "2024-05-28 21:58:53"
     },
     "https://github.com/Taremin/comfyui-prompt-extranetworks": {
         "stars": 2,
@@ -1009,14 +1073,14 @@
     },
     "https://github.com/TemryL/ComfyS3": {
         "stars": 13,
-        "last_update": "2024-05-22 23:22:36"
+        "last_update": "2024-05-30 12:14:59"
     },
     "https://github.com/TemryL/ComfyUI-IDM-VTON": {
-        "stars": 124,
-        "last_update": "2024-05-26 22:13:03"
+        "stars": 148,
+        "last_update": "2024-05-30 12:21:57"
     },
     "https://github.com/TencentQQGYLab/ComfyUI-ELLA": {
-        "stars": 248,
+        "stars": 261,
         "last_update": "2024-05-07 03:07:38"
     },
     "https://github.com/TheBarret/ZSuite": {
@@ -1028,19 +1092,19 @@
         "last_update": "2024-02-24 00:49:19"
     },
     "https://github.com/TheMistoAI/ComfyUI-Anyline": {
-        "stars": 201,
+        "stars": 224,
         "last_update": "2024-05-23 05:12:45"
     },
     "https://github.com/TinyTerra/ComfyUI_tinyterraNodes": {
-        "stars": 294,
-        "last_update": "2024-05-27 01:11:34"
+        "stars": 302,
+        "last_update": "2024-06-02 10:02:07"
     },
     "https://github.com/TripleHeadedMonkey/ComfyUI_MileHighStyler": {
         "stars": 16,
         "last_update": "2024-05-22 22:13:06"
     },
     "https://github.com/Tropfchen/ComfyUI-Embedding_Picker": {
-        "stars": 22,
+        "stars": 25,
         "last_update": "2024-05-24 20:02:20"
     },
     "https://github.com/Tropfchen/ComfyUI-yaResolutionSelector": {
@@ -1052,7 +1116,7 @@
         "last_update": "2024-05-24 03:45:59"
     },
     "https://github.com/Ttl/ComfyUi_NNLatentUpscale": {
-        "stars": 151,
+        "stars": 152,
         "last_update": "2024-05-22 20:50:03"
     },
     "https://github.com/Umikaze-job/select_folder_path_easy": {
@@ -1060,11 +1124,11 @@
         "last_update": "2024-05-22 21:30:13"
     },
     "https://github.com/VAST-AI-Research/ComfyUI-Tripo": {
-        "stars": 52,
+        "stars": 58,
         "last_update": "2024-05-23 01:11:56"
     },
     "https://github.com/WASasquatch/ASTERR": {
-        "stars": 10,
+        "stars": 11,
         "last_update": "2023-09-30 01:11:46"
     },
     "https://github.com/WASasquatch/ComfyUI_Preset_Merger": {
@@ -1076,11 +1140,11 @@
         "last_update": "2024-03-05 15:36:38"
     },
     "https://github.com/WASasquatch/PPF_Noise_ComfyUI": {
-        "stars": 19,
+        "stars": 20,
         "last_update": "2023-10-01 03:36:57"
     },
     "https://github.com/WASasquatch/PowerNoiseSuite": {
-        "stars": 51,
+        "stars": 52,
         "last_update": "2023-09-19 17:04:01"
     },
     "https://github.com/WASasquatch/WAS_Extras": {
@@ -1088,8 +1152,8 @@
         "last_update": "2023-11-20 17:14:58"
     },
     "https://github.com/WASasquatch/was-node-suite-comfyui": {
-        "stars": 869,
-        "last_update": "2024-05-16 22:38:34"
+        "stars": 886,
+        "last_update": "2024-06-02 15:13:39"
     },
     "https://github.com/WebDev9000/WebDev9000-Nodes": {
         "stars": 1,
@@ -1100,7 +1164,7 @@
         "last_update": "2024-04-11 01:32:57"
     },
     "https://github.com/XmYx/deforum-comfy-nodes": {
-        "stars": 94,
+        "stars": 98,
         "last_update": "2024-05-21 01:46:57"
     },
     "https://github.com/Xyem/Xycuno-Oobabooga": {
@@ -1120,39 +1184,43 @@
         "last_update": "2024-05-22 18:04:22"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-APISR": {
-        "stars": 307,
+        "stars": 308,
         "last_update": "2024-05-22 14:14:46"
     },
+    "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Animated-optical-illusions": {
+        "stars": 0,
+        "last_update": "2024-06-02 16:41:54"
+    },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-ArtGallery": {
-        "stars": 308,
+        "stars": 318,
         "last_update": "2024-05-22 08:53:46"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-BRIA_AI-RMBG": {
-        "stars": 532,
+        "stars": 536,
         "last_update": "2024-05-22 14:14:18"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-BiRefNet-ZHO": {
-        "stars": 125,
+        "stars": 130,
         "last_update": "2024-05-22 14:14:31"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-DepthFM": {
-        "stars": 65,
+        "stars": 66,
         "last_update": "2024-05-22 14:14:03"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Gemini": {
-        "stars": 560,
+        "stars": 568,
         "last_update": "2024-05-22 14:15:11"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-InstantID": {
-        "stars": 1148,
+        "stars": 1160,
         "last_update": "2024-05-22 13:57:55"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Phi-3-mini": {
-        "stars": 158,
+        "stars": 165,
         "last_update": "2024-05-22 13:40:05"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-PhotoMaker-ZHO": {
-        "stars": 731,
+        "stars": 736,
         "last_update": "2024-05-22 14:13:49"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-PixArt-alpha-Diffusers": {
@@ -1164,11 +1232,11 @@
         "last_update": "2024-05-22 14:15:52"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Qwen-VL-API": {
-        "stars": 177,
+        "stars": 179,
         "last_update": "2024-05-22 14:14:57"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-SVD-ZHO": {
-        "stars": 87,
+        "stars": 89,
         "last_update": "2024-05-22 13:40:44"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-SegMoE": {
@@ -1176,15 +1244,15 @@
         "last_update": "2024-05-22 13:41:14"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-Text_Image-Composite": {
-        "stars": 68,
-        "last_update": "2024-05-22 13:57:43"
+        "stars": 69,
+        "last_update": "2024-05-31 12:03:55"
     },
     "https://github.com/ZHO-ZHO-ZHO/ComfyUI-YoloWorld-EfficientSAM": {
-        "stars": 411,
+        "stars": 422,
         "last_update": "2024-05-22 13:01:07"
     },
     "https://github.com/ZHO-ZHO-ZHO/comfyui-portrait-master-zh-cn": {
-        "stars": 1410,
+        "stars": 1418,
         "last_update": "2024-04-17 19:57:18"
     },
     "https://github.com/ZaneA/ComfyUI-ImageReward": {
@@ -1200,11 +1268,11 @@
         "last_update": "2023-09-19 12:11:26"
     },
     "https://github.com/Zuellni/ComfyUI-ExLlama": {
-        "stars": 86,
+        "stars": 89,
         "last_update": "2024-05-17 20:55:36"
     },
     "https://github.com/Zuellni/ComfyUI-ExLlama-Nodes": {
-        "stars": 86,
+        "stars": 89,
         "last_update": "2024-05-17 20:55:36"
     },
     "https://github.com/Zuellni/ComfyUI-PickScore-Nodes": {
@@ -1212,7 +1280,7 @@
         "last_update": "2024-05-22 18:07:53"
     },
     "https://github.com/a1lazydog/ComfyUI-AudioScheduler": {
-        "stars": 87,
+        "stars": 88,
         "last_update": "2024-05-06 16:53:15"
     },
     "https://github.com/aburahamu/ComfyUI-IsNiceParts": {
@@ -1232,7 +1300,7 @@
         "last_update": "2024-05-22 23:24:45"
     },
     "https://github.com/adieyal/comfyui-dynamicprompts": {
-        "stars": 170,
+        "stars": 171,
         "last_update": "2024-02-05 06:55:50"
     },
     "https://github.com/adriflex/ComfyUI_Blender_Texdiff": {
@@ -1244,7 +1312,7 @@
         "last_update": "2024-05-22 22:10:29"
     },
     "https://github.com/aegis72/comfyui-styles-all": {
-        "stars": 27,
+        "stars": 28,
         "last_update": "2024-05-22 22:10:41"
     },
     "https://github.com/ai-liam/comfyui-liam": {
@@ -1267,20 +1335,24 @@
         "stars": 2,
         "last_update": "2024-05-23 01:17:52"
     },
+    "https://github.com/alessandrozonta/ComfyUI-Layers": {
+        "stars": 6,
+        "last_update": "2024-05-28 09:52:49"
+    },
     "https://github.com/alexopus/ComfyUI-Image-Saver": {
         "stars": 25,
-        "last_update": "2024-05-26 16:35:22"
+        "last_update": "2024-05-27 18:10:58"
     },
     "https://github.com/ali1234/comfyui-job-iterator": {
-        "stars": 53,
+        "stars": 56,
         "last_update": "2024-05-22 20:54:21"
     },
     "https://github.com/alisson-anjos/ComfyUI-Ollama-Describer": {
-        "stars": 19,
+        "stars": 21,
         "last_update": "2024-05-23 00:17:43"
     },
     "https://github.com/alpertunga-bile/prompt-generator-comfyui": {
-        "stars": 57,
+        "stars": 60,
         "last_update": "2024-05-26 20:38:11"
     },
     "https://github.com/alsritter/asymmetric-tiling-comfyui": {
@@ -1292,7 +1364,7 @@
         "last_update": "2024-05-22 20:51:52"
     },
     "https://github.com/alt-key-project/comfyui-dream-video-batches": {
-        "stars": 47,
+        "stars": 48,
         "last_update": "2024-05-22 20:52:05"
     },
     "https://github.com/an90ray/ComfyUI_RErouter_CustomNodes": {
@@ -1313,10 +1385,10 @@
     },
     "https://github.com/antrobot1234/antrobots-comfyUI-nodepack": {
         "stars": 8,
-        "last_update": "2024-05-22 23:23:39"
+        "last_update": "2024-05-28 14:44:16"
     },
     "https://github.com/aria1th/ComfyUI-LogicUtils": {
-        "stars": 16,
+        "stars": 18,
         "last_update": "2024-05-23 01:27:16"
     },
     "https://github.com/asagi4/ComfyUI-CADS": {
@@ -1324,7 +1396,7 @@
         "last_update": "2024-05-23 18:14:56"
     },
     "https://github.com/asagi4/comfyui-prompt-control": {
-        "stars": 146,
+        "stars": 148,
         "last_update": "2024-05-26 13:32:54"
     },
     "https://github.com/asagi4/comfyui-utility-nodes": {
@@ -1332,19 +1404,23 @@
         "last_update": "2024-05-25 11:40:49"
     },
     "https://github.com/aszc-dev/ComfyUI-CoreMLSuite": {
-        "stars": 80,
+        "stars": 82,
         "last_update": "2024-05-22 21:23:52"
     },
     "https://github.com/atmaranto/ComfyUI-SaveAsScript": {
-        "stars": 27,
+        "stars": 35,
         "last_update": "2024-05-23 22:59:27"
     },
+    "https://github.com/audioscavenger/ComfyUI-Thumbnails": {
+        "stars": 3,
+        "last_update": "2024-06-01 14:58:23"
+    },
     "https://github.com/audioscavenger/save-image-extended-comfyui": {
-        "stars": 4,
-        "last_update": "2024-05-24 03:42:31"
+        "stars": 7,
+        "last_update": "2024-06-01 20:35:08"
     },
     "https://github.com/avatechai/avatar-graph-comfyui": {
-        "stars": 202,
+        "stars": 206,
         "last_update": "2024-05-22 21:14:14"
     },
     "https://github.com/aws-samples/comfyui-llm-node-for-amazon-bedrock": {
@@ -1364,11 +1440,11 @@
         "last_update": "2024-05-22 20:40:03"
     },
     "https://github.com/banodoco/steerable-motion": {
-        "stars": 667,
-        "last_update": "2024-05-26 23:30:12"
+        "stars": 711,
+        "last_update": "2024-05-30 13:45:03"
     },
     "https://github.com/bash-j/mikey_nodes": {
-        "stars": 76,
+        "stars": 78,
         "last_update": "2024-05-26 05:17:08"
     },
     "https://github.com/bedovyy/ComfyUI_NAIDGenerator": {
@@ -1379,16 +1455,20 @@
         "stars": 2,
         "last_update": "2024-05-22 23:23:50"
     },
+    "https://github.com/bitaffinity/ComfyUI_HF_Inference": {
+        "stars": 0,
+        "last_update": "2024-06-01 12:17:38"
+    },
     "https://github.com/blepping/ComfyUI-bleh": {
         "stars": 30,
         "last_update": "2024-05-22 23:17:49"
     },
     "https://github.com/blepping/ComfyUI-sonar": {
-        "stars": 29,
+        "stars": 30,
         "last_update": "2024-05-22 23:18:26"
     },
     "https://github.com/blepping/comfyui_jankhidiffusion": {
-        "stars": 77,
+        "stars": 83,
         "last_update": "2024-05-22 23:18:40"
     },
     "https://github.com/blueraincoatli/comfyUI_SillyNodes": {
@@ -1417,7 +1497,7 @@
     },
     "https://github.com/bmad4ever/comfyui_wfc_like": {
         "stars": 3,
-        "last_update": "2024-05-22 18:12:48"
+        "last_update": "2024-05-30 16:30:28"
     },
     "https://github.com/bobmagicii/comfykit-custom-nodes": {
         "stars": 1,
@@ -1432,8 +1512,8 @@
         "last_update": "2024-05-23 06:06:16"
     },
     "https://github.com/brianfitzgerald/style_aligned_comfy": {
-        "stars": 239,
-        "last_update": "2024-05-22 22:09:27"
+        "stars": 247,
+        "last_update": "2024-05-30 14:23:40"
     },
     "https://github.com/bronkula/comfyui-fitsize": {
         "stars": 30,
@@ -1484,7 +1564,7 @@
         "last_update": "2024-05-23 01:25:57"
     },
     "https://github.com/chaojie/ComfyUI-AniPortrait": {
-        "stars": 220,
+        "stars": 223,
         "last_update": "2024-05-22 22:26:03"
     },
     "https://github.com/chaojie/ComfyUI-CameraCtrl-Wrapper": {
@@ -1492,7 +1572,7 @@
         "last_update": "2024-04-19 03:46:18"
     },
     "https://github.com/chaojie/ComfyUI-Champ": {
-        "stars": 17,
+        "stars": 18,
         "last_update": "2024-05-22 22:26:47"
     },
     "https://github.com/chaojie/ComfyUI-DragAnything": {
@@ -1500,15 +1580,15 @@
         "last_update": "2024-05-16 07:13:53"
     },
     "https://github.com/chaojie/ComfyUI-DragNUWA": {
-        "stars": 353,
+        "stars": 354,
         "last_update": "2024-03-14 06:56:41"
     },
     "https://github.com/chaojie/ComfyUI-DynamiCrafter": {
-        "stars": 101,
+        "stars": 103,
         "last_update": "2024-03-16 19:08:28"
     },
     "https://github.com/chaojie/ComfyUI-EasyAnimate": {
-        "stars": 36,
+        "stars": 37,
         "last_update": "2024-05-22 22:24:00"
     },
     "https://github.com/chaojie/ComfyUI-Gemma": {
@@ -1532,7 +1612,7 @@
         "last_update": "2024-01-20 16:53:51"
     },
     "https://github.com/chaojie/ComfyUI-Moore-AnimateAnyone": {
-        "stars": 198,
+        "stars": 199,
         "last_update": "2024-02-24 13:48:57"
     },
     "https://github.com/chaojie/ComfyUI-Motion-Vector-Extractor": {
@@ -1548,23 +1628,23 @@
         "last_update": "2024-01-16 09:41:07"
     },
     "https://github.com/chaojie/ComfyUI-MuseTalk": {
-        "stars": 109,
+        "stars": 124,
         "last_update": "2024-05-22 22:25:07"
     },
     "https://github.com/chaojie/ComfyUI-MuseV": {
-        "stars": 108,
+        "stars": 114,
         "last_update": "2024-05-22 22:25:31"
     },
     "https://github.com/chaojie/ComfyUI-Open-Sora": {
-        "stars": 81,
+        "stars": 84,
         "last_update": "2024-05-22 22:26:59"
     },
     "https://github.com/chaojie/ComfyUI-Open-Sora-Plan": {
         "stars": 46,
-        "last_update": "2024-04-23 08:01:58"
+        "last_update": "2024-05-29 16:15:10"
     },
     "https://github.com/chaojie/ComfyUI-Panda3d": {
-        "stars": 12,
+        "stars": 13,
         "last_update": "2024-03-05 06:37:32"
     },
     "https://github.com/chaojie/ComfyUI-Pymunk": {
@@ -1596,35 +1676,39 @@
         "last_update": "2024-05-10 09:14:57"
     },
     "https://github.com/chaosaiart/Chaosaiart-Nodes": {
-        "stars": 41,
-        "last_update": "2024-05-27 09:58:13"
+        "stars": 43,
+        "last_update": "2024-05-27 10:55:18"
     },
     "https://github.com/chenpx976/ComfyUI-RunRunRun": {
         "stars": 0,
         "last_update": "2024-05-23 01:19:37"
+    },
+    "https://github.com/chesnokovivan/ComfyUI-Novakid": {
+        "stars": 0,
+        "last_update": "2024-05-30 11:36:25"
     },
     "https://github.com/chflame163/ComfyUI_FaceSimilarity": {
         "stars": 5,
         "last_update": "2024-05-23 12:48:18"
     },
     "https://github.com/chflame163/ComfyUI_LayerStyle": {
-        "stars": 525,
-        "last_update": "2024-05-25 03:18:11"
+        "stars": 552,
+        "last_update": "2024-05-30 01:54:23"
     },
     "https://github.com/chflame163/ComfyUI_MSSpeech_TTS": {
-        "stars": 19,
+        "stars": 20,
         "last_update": "2024-05-25 02:39:56"
     },
     "https://github.com/chflame163/ComfyUI_WordCloud": {
-        "stars": 56,
+        "stars": 59,
         "last_update": "2024-05-25 02:41:06"
     },
     "https://github.com/chibiace/ComfyUI-Chibi-Nodes": {
-        "stars": 24,
+        "stars": 25,
         "last_update": "2024-05-22 21:16:12"
     },
     "https://github.com/choey/Comfy-Topaz": {
-        "stars": 15,
+        "stars": 16,
         "last_update": "2024-04-10 09:05:18"
     },
     "https://github.com/chrisfreilich/virtuoso-nodes": {
@@ -1632,8 +1716,8 @@
         "last_update": "2024-05-23 01:15:43"
     },
     "https://github.com/chrisgoringe/cg-image-picker": {
-        "stars": 152,
-        "last_update": "2024-05-20 02:49:49"
+        "stars": 159,
+        "last_update": "2024-06-01 23:07:44"
     },
     "https://github.com/chrisgoringe/cg-noise": {
         "stars": 23,
@@ -1644,7 +1728,7 @@
         "last_update": "2024-05-22 21:07:33"
     },
     "https://github.com/chrisgoringe/cg-use-everywhere": {
-        "stars": 303,
+        "stars": 311,
         "last_update": "2024-05-20 00:48:27"
     },
     "https://github.com/chrish-slingshot/CrasHUtils": {
@@ -1656,15 +1740,15 @@
         "last_update": "2024-05-25 03:14:52"
     },
     "https://github.com/christian-byrne/img2txt-comfyui-nodes": {
-        "stars": 15,
-        "last_update": "2024-05-26 06:17:01"
+        "stars": 18,
+        "last_update": "2024-05-28 14:02:16"
     },
     "https://github.com/christian-byrne/size-match-compositing-nodes": {
-        "stars": 0,
-        "last_update": "2024-05-27 01:45:12"
+        "stars": 2,
+        "last_update": "2024-06-01 05:49:27"
     },
     "https://github.com/city96/ComfyUI_ColorMod": {
-        "stars": 33,
+        "stars": 35,
         "last_update": "2024-05-22 18:06:19"
     },
     "https://github.com/city96/ComfyUI_DiT": {
@@ -1672,11 +1756,11 @@
         "last_update": "2024-05-22 18:06:05"
     },
     "https://github.com/city96/ComfyUI_ExtraModels": {
-        "stars": 220,
-        "last_update": "2024-05-25 16:38:44"
+        "stars": 225,
+        "last_update": "2024-05-31 19:56:58"
     },
     "https://github.com/city96/ComfyUI_NetDist": {
-        "stars": 201,
+        "stars": 207,
         "last_update": "2024-05-22 18:05:10"
     },
     "https://github.com/city96/SD-Advanced-Noise": {
@@ -1684,23 +1768,27 @@
         "last_update": "2024-05-22 18:05:35"
     },
     "https://github.com/city96/SD-Latent-Interposer": {
-        "stars": 157,
+        "stars": 159,
         "last_update": "2024-05-22 18:05:22"
     },
     "https://github.com/city96/SD-Latent-Upscaler": {
-        "stars": 103,
+        "stars": 107,
         "last_update": "2024-05-22 18:05:50"
     },
     "https://github.com/civitai/comfy-nodes": {
         "stars": 79,
         "last_update": "2024-02-29 12:23:11"
     },
+    "https://github.com/claussteinmassl/ComfyUI-CS-CustomNodes": {
+        "stars": 1,
+        "last_update": "2024-05-31 12:03:35"
+    },
     "https://github.com/comfyanonymous/ComfyUI": {
-        "stars": 35931,
-        "last_update": "2024-05-27 02:21:57"
+        "stars": 36477,
+        "last_update": "2024-06-02 13:15:20"
     },
     "https://github.com/comfyanonymous/ComfyUI_experiments": {
-        "stars": 126,
+        "stars": 127,
         "last_update": "2024-05-22 15:29:49"
     },
     "https://github.com/concarne000/ConCarneNode": {
@@ -1711,8 +1799,12 @@
         "stars": 0,
         "last_update": "2024-05-23 01:25:49"
     },
+    "https://github.com/coolzilj/ComfyUI-Photopea": {
+        "stars": 36,
+        "last_update": "2024-06-02 14:33:26"
+    },
     "https://github.com/coreyryanhanson/ComfyQR": {
-        "stars": 48,
+        "stars": 50,
         "last_update": "2024-03-20 20:10:27"
     },
     "https://github.com/coreyryanhanson/ComfyQR-scanning-nodes": {
@@ -1724,7 +1816,7 @@
         "last_update": "2024-05-23 00:10:45"
     },
     "https://github.com/cozymantis/human-parser-comfyui-node": {
-        "stars": 38,
+        "stars": 40,
         "last_update": "2024-05-23 00:10:21"
     },
     "https://github.com/cozymantis/pose-generator-comfyui-node": {
@@ -1732,7 +1824,7 @@
         "last_update": "2024-05-23 00:10:33"
     },
     "https://github.com/crystian/ComfyUI-Crystools": {
-        "stars": 424,
+        "stars": 434,
         "last_update": "2024-05-21 00:37:08"
     },
     "https://github.com/crystian/ComfyUI-Crystools-save": {
@@ -1740,15 +1832,15 @@
         "last_update": "2024-05-22 22:20:15"
     },
     "https://github.com/cubiq/ComfyUI_FaceAnalysis": {
-        "stars": 176,
-        "last_update": "2024-05-27 06:08:49"
+        "stars": 193,
+        "last_update": "2024-05-29 20:20:36"
     },
     "https://github.com/cubiq/ComfyUI_IPAdapter_plus": {
-        "stars": 2760,
-        "last_update": "2024-05-23 22:45:34"
+        "stars": 2823,
+        "last_update": "2024-05-30 15:38:17"
     },
     "https://github.com/cubiq/ComfyUI_InstantID": {
-        "stars": 824,
+        "stars": 851,
         "last_update": "2024-05-08 14:56:00"
     },
     "https://github.com/cubiq/ComfyUI_SimpleMath": {
@@ -1756,16 +1848,20 @@
         "last_update": "2023-09-26 06:31:44"
     },
     "https://github.com/cubiq/ComfyUI_essentials": {
-        "stars": 269,
-        "last_update": "2024-05-24 12:20:57"
+        "stars": 280,
+        "last_update": "2024-05-29 10:34:38"
     },
     "https://github.com/cubiq/PuLID_ComfyUI": {
-        "stars": 350,
+        "stars": 369,
         "last_update": "2024-05-26 17:23:56"
+    },
+    "https://github.com/cuongloveit/comfy_http_request": {
+        "stars": 0,
+        "last_update": "2024-05-28 08:58:59"
     },
     "https://github.com/curiousjp/ComfyUI-MaskBatchPermutations": {
         "stars": 3,
-        "last_update": "2024-05-23 01:18:07"
+        "last_update": "2024-05-28 13:09:32"
     },
     "https://github.com/czcz1024/Comfyui-FaceCompare": {
         "stars": 0,
@@ -1780,11 +1876,11 @@
         "last_update": "2024-05-23 01:16:06"
     },
     "https://github.com/dagthomas/comfyui_dagthomas": {
-        "stars": 59,
+        "stars": 62,
         "last_update": "2024-05-23 08:41:09"
     },
     "https://github.com/daniabib/ComfyUI_ProPainter_Nodes": {
-        "stars": 72,
+        "stars": 122,
         "last_update": "2024-05-25 15:14:53"
     },
     "https://github.com/daniel-lewis-ab/ComfyUI-Llama": {
@@ -1800,35 +1896,35 @@
         "last_update": "2024-05-23 19:48:02"
     },
     "https://github.com/davask/ComfyUI_MaraScott_Nodes": {
-        "stars": 46,
-        "last_update": "2024-05-27 01:50:40"
+        "stars": 48,
+        "last_update": "2024-05-31 23:45:29"
     },
     "https://github.com/dave-palt/comfyui_DSP_imagehelpers": {
         "stars": 0,
         "last_update": "2024-05-22 23:12:11"
     },
     "https://github.com/daxcay/ComfyUI-DRMN": {
-        "stars": 4,
-        "last_update": "2024-05-24 06:30:03"
+        "stars": 5,
+        "last_update": "2024-05-29 15:39:05"
     },
     "https://github.com/daxcay/ComfyUI-JDCN": {
-        "stars": 36,
+        "stars": 49,
         "last_update": "2024-05-24 06:27:36"
     },
     "https://github.com/daxthin/DZ-FaceDetailer": {
-        "stars": 93,
+        "stars": 96,
         "last_update": "2023-12-16 17:31:44"
     },
     "https://github.com/dchatel/comfyui_facetools": {
         "stars": 40,
-        "last_update": "2024-05-23 19:02:41"
+        "last_update": "2024-05-31 10:40:32"
     },
     "https://github.com/deroberon/StableZero123-comfyui": {
-        "stars": 128,
+        "stars": 131,
         "last_update": "2024-05-22 22:09:53"
     },
     "https://github.com/deroberon/demofusion-comfyui": {
-        "stars": 82,
+        "stars": 83,
         "last_update": "2024-05-22 22:09:42"
     },
     "https://github.com/dfl/comfyui-clip-with-break": {
@@ -1844,11 +1940,11 @@
         "last_update": "2024-05-23 00:11:33"
     },
     "https://github.com/digitaljohn/comfyui-propost": {
-        "stars": 98,
+        "stars": 99,
         "last_update": "2024-05-22 23:24:19"
     },
     "https://github.com/dimtoneff/ComfyUI-PixelArt-Detector": {
-        "stars": 157,
+        "stars": 158,
         "last_update": "2024-01-07 03:29:57"
     },
     "https://github.com/diontimmer/ComfyUI-Vextra-Nodes": {
@@ -1859,16 +1955,20 @@
         "stars": 7,
         "last_update": "2023-11-30 02:45:49"
     },
+    "https://github.com/discus0434/comfyui-aesthetic-predictor-v2-5": {
+        "stars": 3,
+        "last_update": "2024-05-28 14:04:29"
+    },
     "https://github.com/discus0434/comfyui-caching-embeddings": {
         "stars": 1,
         "last_update": "2024-04-09 03:52:05"
     },
     "https://github.com/djbielejeski/a-person-mask-generator": {
-        "stars": 209,
-        "last_update": "2024-05-26 21:03:04"
+        "stars": 220,
+        "last_update": "2024-05-27 13:54:56"
     },
     "https://github.com/dmMaze/sketch2manga": {
-        "stars": 22,
+        "stars": 24,
         "last_update": "2024-05-23 00:14:41"
     },
     "https://github.com/dmarx/ComfyUI-AudioReactive": {
@@ -1876,7 +1976,7 @@
         "last_update": "2024-05-22 22:12:53"
     },
     "https://github.com/dmarx/ComfyUI-Keyframed": {
-        "stars": 79,
+        "stars": 81,
         "last_update": "2024-05-22 22:12:50"
     },
     "https://github.com/drago87/ComfyUI_Dragos_Nodes": {
@@ -1892,19 +1992,19 @@
         "last_update": "2024-05-23 01:09:41"
     },
     "https://github.com/ealkanat/comfyui_easy_padding": {
-        "stars": 11,
+        "stars": 12,
         "last_update": "2024-05-22 21:58:52"
     },
     "https://github.com/edenartlab/eden_comfy_pipelines": {
-        "stars": 35,
-        "last_update": "2024-05-25 18:26:43"
+        "stars": 37,
+        "last_update": "2024-05-31 12:20:25"
     },
     "https://github.com/evanspearman/ComfyMath": {
-        "stars": 46,
+        "stars": 48,
         "last_update": "2023-08-27 03:29:04"
     },
     "https://github.com/failfa-st/failfast-comfyui-extensions": {
-        "stars": 121,
+        "stars": 124,
         "last_update": "2024-05-09 19:24:22"
     },
     "https://github.com/fexli/fexli-util-node-comfyui": {
@@ -1912,23 +2012,23 @@
         "last_update": "2024-05-22 21:27:36"
     },
     "https://github.com/fexploit/ComfyUI-AutoLabel": {
-        "stars": 2,
+        "stars": 3,
         "last_update": "2024-05-25 19:54:58"
     },
     "https://github.com/fexploit/ComfyUI-AutoTrimBG": {
-        "stars": 1,
+        "stars": 2,
         "last_update": "2024-05-24 20:38:15"
     },
     "https://github.com/filipemeneses/comfy_pixelization": {
-        "stars": 25,
+        "stars": 26,
         "last_update": "2024-05-22 20:59:16"
     },
     "https://github.com/filliptm/ComfyUI_Fill-Nodes": {
-        "stars": 54,
-        "last_update": "2024-05-25 21:34:49"
+        "stars": 71,
+        "last_update": "2024-05-29 19:38:26"
     },
     "https://github.com/florestefano1975/ComfyUI-HiDiffusion": {
-        "stars": 122,
+        "stars": 126,
         "last_update": "2024-05-22 00:33:06"
     },
     "https://github.com/florestefano1975/ComfyUI-StabilityAI-Suite": {
@@ -1936,23 +2036,23 @@
         "last_update": "2024-04-21 07:34:21"
     },
     "https://github.com/florestefano1975/comfyui-portrait-master": {
-        "stars": 713,
+        "stars": 721,
         "last_update": "2024-05-22 00:30:41"
     },
     "https://github.com/florestefano1975/comfyui-prompt-composer": {
-        "stars": 203,
+        "stars": 205,
         "last_update": "2024-05-22 00:34:06"
     },
     "https://github.com/flowtyone/ComfyUI-Flowty-CRM": {
-        "stars": 118,
+        "stars": 120,
         "last_update": "2024-04-03 23:47:03"
     },
     "https://github.com/flowtyone/ComfyUI-Flowty-LDSR": {
-        "stars": 153,
+        "stars": 155,
         "last_update": "2024-03-24 19:03:45"
     },
     "https://github.com/flowtyone/ComfyUI-Flowty-TripoSR": {
-        "stars": 341,
+        "stars": 346,
         "last_update": "2024-03-19 10:49:59"
     },
     "https://github.com/flyingshutter/As_ComfyUI_CustomNodes": {
@@ -1980,7 +2080,7 @@
         "last_update": "2024-05-23 00:23:20"
     },
     "https://github.com/frankchieng/ComfyUI_MagicClothing": {
-        "stars": 364,
+        "stars": 382,
         "last_update": "2024-05-23 00:23:32"
     },
     "https://github.com/fsdymy1024/ComfyUI_fsdymy": {
@@ -1996,11 +2096,11 @@
         "last_update": "2024-05-23 00:54:46"
     },
     "https://github.com/get-salt-AI/SaltAI_Language_Toolkit": {
-        "stars": 9,
+        "stars": 11,
         "last_update": "2024-05-23 00:54:34"
     },
     "https://github.com/get-salt-AI/SaltAI_LlamaIndex": {
-        "stars": 9,
+        "stars": 11,
         "last_update": "2024-05-23 00:54:34"
     },
     "https://github.com/ginlov/segment_to_mask_comfyui": {
@@ -2008,7 +2108,7 @@
         "last_update": "2024-01-07 14:03:21"
     },
     "https://github.com/giriss/comfy-image-saver": {
-        "stars": 132,
+        "stars": 133,
         "last_update": "2024-05-22 20:40:55"
     },
     "https://github.com/githubYiheng/ComfyUI_Change_IMAGE_BOREDER": {
@@ -2023,12 +2123,20 @@
         "stars": 0,
         "last_update": "2024-05-24 10:55:10"
     },
+    "https://github.com/githubYiheng/comfyui_meanshift_filter": {
+        "stars": 0,
+        "last_update": "2024-05-28 03:12:18"
+    },
     "https://github.com/githubYiheng/comfyui_median_filter": {
         "stars": 0,
         "last_update": "2024-05-24 15:21:40"
     },
+    "https://github.com/githubYiheng/comfyui_private_postprocessor": {
+        "stars": 0,
+        "last_update": "2024-05-30 07:06:09"
+    },
     "https://github.com/glibsonoran/Plush-for-ComfyUI": {
-        "stars": 99,
+        "stars": 101,
         "last_update": "2024-05-24 16:32:17"
     },
     "https://github.com/glifxyz/ComfyUI-GlifNodes": {
@@ -2048,23 +2156,23 @@
         "last_update": "2024-05-21 00:37:05"
     },
     "https://github.com/gokayfem/ComfyUI-Dream-Interpreter": {
-        "stars": 62,
+        "stars": 63,
         "last_update": "2024-05-21 00:36:50"
     },
     "https://github.com/gokayfem/ComfyUI-Texture-Simple": {
-        "stars": 28,
+        "stars": 29,
         "last_update": "2024-05-21 00:19:53"
     },
     "https://github.com/gokayfem/ComfyUI_VLM_nodes": {
-        "stars": 237,
-        "last_update": "2024-05-25 03:37:56"
+        "stars": 251,
+        "last_update": "2024-06-02 10:23:55"
     },
     "https://github.com/gonzalu/ComfyUI_YFG_Comical": {
-        "stars": 7,
-        "last_update": "2024-05-27 00:29:52"
+        "stars": 10,
+        "last_update": "2024-05-30 03:05:46"
     },
     "https://github.com/griptape-ai/ComfyUI-Griptape": {
-        "stars": 2,
+        "stars": 3,
         "last_update": "2024-05-25 02:12:16"
     },
     "https://github.com/guill/abracadabra-comfyui": {
@@ -2088,12 +2196,12 @@
         "last_update": "2024-04-17 14:38:22"
     },
     "https://github.com/hay86/ComfyUI_Dreamtalk": {
-        "stars": 6,
+        "stars": 7,
         "last_update": "2024-04-12 09:13:05"
     },
     "https://github.com/hay86/ComfyUI_MiniCPM-V": {
         "stars": 5,
-        "last_update": "2024-05-23 00:20:28"
+        "last_update": "2024-05-29 07:27:09"
     },
     "https://github.com/hay86/ComfyUI_OpenVoice": {
         "stars": 3,
@@ -2108,8 +2216,8 @@
         "last_update": "2024-05-22 20:53:55"
     },
     "https://github.com/heshengtao/comfyui_LLM_party": {
-        "stars": 75,
-        "last_update": "2024-05-25 14:36:12"
+        "stars": 78,
+        "last_update": "2024-06-02 03:07:52"
     },
     "https://github.com/hhhzzyang/Comfyui_Lama": {
         "stars": 34,
@@ -2120,7 +2228,7 @@
         "last_update": "2024-02-29 09:35:31"
     },
     "https://github.com/hinablue/ComfyUI_3dPoseEditor": {
-        "stars": 104,
+        "stars": 105,
         "last_update": "2024-05-22 22:23:35"
     },
     "https://github.com/holchan/ComfyUI-ModelDownloader": {
@@ -2128,7 +2236,7 @@
         "last_update": "2024-03-02 05:43:41"
     },
     "https://github.com/huagetai/ComfyUI-Gaffer": {
-        "stars": 28,
+        "stars": 31,
         "last_update": "2024-05-23 01:22:40"
     },
     "https://github.com/huagetai/ComfyUI_LightGradient": {
@@ -2136,15 +2244,15 @@
         "last_update": "2024-05-23 01:21:27"
     },
     "https://github.com/huchenlei/ComfyUI-IC-Light-Native": {
-        "stars": 313,
+        "stars": 329,
         "last_update": "2024-05-14 14:31:12"
     },
     "https://github.com/huchenlei/ComfyUI-layerdiffuse": {
-        "stars": 1207,
+        "stars": 1221,
         "last_update": "2024-05-16 22:30:32"
     },
     "https://github.com/huchenlei/ComfyUI-openpose-editor": {
-        "stars": 9,
+        "stars": 10,
         "last_update": "2024-04-25 22:45:00"
     },
     "https://github.com/huchenlei/ComfyUI_DanTagGen": {
@@ -2176,7 +2284,7 @@
         "last_update": "2024-05-17 13:09:02"
     },
     "https://github.com/idrirap/ComfyUI-Lora-Auto-Trigger-Words": {
-        "stars": 78,
+        "stars": 82,
         "last_update": "2024-05-22 21:25:49"
     },
     "https://github.com/iemesowum/ComfyUI_IsaacNodes": {
@@ -2188,28 +2296,28 @@
         "last_update": "2024-05-22 22:31:30"
     },
     "https://github.com/if-ai/ComfyUI-IF_AI_WishperSpeechNode": {
-        "stars": 16,
+        "stars": 21,
         "last_update": "2024-05-22 22:02:55"
     },
     "https://github.com/if-ai/ComfyUI-IF_AI_tools": {
-        "stars": 297,
-        "last_update": "2024-05-22 21:55:40"
+        "stars": 311,
+        "last_update": "2024-05-31 03:09:53"
     },
     "https://github.com/imb101/ComfyUI-FaceSwap": {
         "stars": 29,
         "last_update": "2024-05-22 18:22:29"
     },
     "https://github.com/jags111/ComfyUI_Jags_Audiotools": {
-        "stars": 27,
+        "stars": 30,
         "last_update": "2024-05-19 18:54:12"
     },
     "https://github.com/jags111/ComfyUI_Jags_VectorMagic": {
-        "stars": 46,
+        "stars": 47,
         "last_update": "2024-05-19 18:49:42"
     },
     "https://github.com/jags111/efficiency-nodes-comfyui": {
-        "stars": 616,
-        "last_update": "2024-05-27 05:21:02"
+        "stars": 635,
+        "last_update": "2024-05-31 12:53:20"
     },
     "https://github.com/jamal-alkharrat/ComfyUI_rotate_image": {
         "stars": 0,
@@ -2228,15 +2336,15 @@
         "last_update": "2024-05-23 01:17:35"
     },
     "https://github.com/jeffy5/comfyui-faceless-node": {
-        "stars": 9,
-        "last_update": "2024-05-23 01:15:09"
+        "stars": 10,
+        "last_update": "2024-05-29 09:32:37"
     },
     "https://github.com/jesenzhang/ComfyUI_StreamDiffusion": {
-        "stars": 99,
+        "stars": 103,
         "last_update": "2024-05-23 02:40:36"
     },
     "https://github.com/jiaxiangc/ComfyUI-ResAdapter": {
-        "stars": 266,
+        "stars": 268,
         "last_update": "2024-05-23 00:22:23"
     },
     "https://github.com/jitcoder/lora-info": {
@@ -2248,7 +2356,7 @@
         "last_update": "2024-05-22 20:44:56"
     },
     "https://github.com/jkrauss82/ultools-comfyui": {
-        "stars": 4,
+        "stars": 5,
         "last_update": "2024-03-31 08:27:34"
     },
     "https://github.com/jmkl/ComfyUI-ricing": {
@@ -2256,7 +2364,7 @@
         "last_update": "2024-05-22 20:54:35"
     },
     "https://github.com/jojkaart/ComfyUI-sampler-lcm-alternative": {
-        "stars": 92,
+        "stars": 95,
         "last_update": "2024-05-22 21:31:41"
     },
     "https://github.com/jordoh/ComfyUI-Deepface": {
@@ -2268,11 +2376,11 @@
         "last_update": "2023-12-25 17:55:50"
     },
     "https://github.com/jtydhr88/ComfyUI-InstantMesh": {
-        "stars": 117,
-        "last_update": "2024-04-17 03:15:10"
+        "stars": 124,
+        "last_update": "2024-06-01 01:46:34"
     },
     "https://github.com/jtydhr88/ComfyUI-LayerDivider": {
-        "stars": 32,
+        "stars": 35,
         "last_update": "2024-05-18 03:24:07"
     },
     "https://github.com/jtydhr88/ComfyUI-Workflow-Encrypt": {
@@ -2280,7 +2388,7 @@
         "last_update": "2024-04-07 02:47:17"
     },
     "https://github.com/ka-puna/comfyui-yanc": {
-        "stars": 5,
+        "stars": 6,
         "last_update": "2024-05-22 21:29:37"
     },
     "https://github.com/kaanyalova/ComfyUI_ExtendedImageFormats": {
@@ -2316,11 +2424,11 @@
         "last_update": "2024-05-23 01:10:44"
     },
     "https://github.com/kealiu/ComfyUI-Zero123-Porting": {
-        "stars": 6,
+        "stars": 7,
         "last_update": "2024-05-23 01:11:13"
     },
     "https://github.com/kealiu/ComfyUI-ZeroShot-MTrans": {
-        "stars": 120,
+        "stars": 123,
         "last_update": "2024-05-23 01:11:01"
     },
     "https://github.com/kenjiqq/qq-nodes-comfyui": {
@@ -2332,11 +2440,11 @@
         "last_update": "2024-01-14 04:23:09"
     },
     "https://github.com/kijai/ComfyUI-ADMotionDirector": {
-        "stars": 117,
-        "last_update": "2024-05-21 16:14:53"
+        "stars": 118,
+        "last_update": "2024-06-01 17:55:31"
     },
     "https://github.com/kijai/ComfyUI-APISR-KJ": {
-        "stars": 54,
+        "stars": 55,
         "last_update": "2024-05-21 16:30:21"
     },
     "https://github.com/kijai/ComfyUI-BrushNet-Wrapper": {
@@ -2344,7 +2452,7 @@
         "last_update": "2024-05-21 16:49:05"
     },
     "https://github.com/kijai/ComfyUI-CCSR": {
-        "stars": 123,
+        "stars": 136,
         "last_update": "2024-05-22 21:09:35"
     },
     "https://github.com/kijai/ComfyUI-DDColor": {
@@ -2352,55 +2460,55 @@
         "last_update": "2024-05-21 16:04:26"
     },
     "https://github.com/kijai/ComfyUI-DiffusionLight": {
-        "stars": 46,
+        "stars": 48,
         "last_update": "2024-05-21 16:16:52"
     },
     "https://github.com/kijai/ComfyUI-DynamiCrafterWrapper": {
-        "stars": 211,
-        "last_update": "2024-05-21 15:59:22"
+        "stars": 337,
+        "last_update": "2024-06-02 13:44:22"
     },
     "https://github.com/kijai/ComfyUI-ELLA-wrapper": {
-        "stars": 99,
+        "stars": 102,
         "last_update": "2024-05-21 16:47:28"
     },
     "https://github.com/kijai/ComfyUI-Geowizard": {
-        "stars": 79,
-        "last_update": "2024-05-21 16:24:26"
+        "stars": 80,
+        "last_update": "2024-05-28 14:08:34"
     },
     "https://github.com/kijai/ComfyUI-IC-Light": {
-        "stars": 297,
+        "stars": 329,
         "last_update": "2024-05-25 07:37:51"
     },
     "https://github.com/kijai/ComfyUI-KJNodes": {
-        "stars": 287,
-        "last_update": "2024-05-21 15:13:05"
+        "stars": 298,
+        "last_update": "2024-06-01 13:07:49"
     },
     "https://github.com/kijai/ComfyUI-LaVi-Bridge-Wrapper": {
         "stars": 19,
         "last_update": "2024-05-21 16:41:18"
     },
     "https://github.com/kijai/ComfyUI-Marigold": {
-        "stars": 353,
-        "last_update": "2024-05-21 16:28:41"
+        "stars": 363,
+        "last_update": "2024-05-29 12:03:37"
     },
     "https://github.com/kijai/ComfyUI-SUPIR": {
-        "stars": 1063,
+        "stars": 1102,
         "last_update": "2024-05-21 14:56:36"
     },
     "https://github.com/kijai/ComfyUI-SVD": {
-        "stars": 151,
+        "stars": 152,
         "last_update": "2024-05-22 21:09:54"
     },
     "https://github.com/kijai/ComfyUI-depth-fm": {
-        "stars": 48,
+        "stars": 49,
         "last_update": "2024-05-22 21:10:15"
     },
     "https://github.com/kijai/ComfyUI-moondream": {
-        "stars": 71,
+        "stars": 73,
         "last_update": "2024-05-22 21:10:33"
     },
     "https://github.com/kinfolk0117/ComfyUI_GradientDeepShrink": {
-        "stars": 22,
+        "stars": 23,
         "last_update": "2024-05-22 21:25:13"
     },
     "https://github.com/kinfolk0117/ComfyUI_Pilgram": {
@@ -2408,7 +2516,7 @@
         "last_update": "2024-05-22 21:25:24"
     },
     "https://github.com/kinfolk0117/ComfyUI_SimpleTiles": {
-        "stars": 22,
+        "stars": 23,
         "last_update": "2024-05-22 21:25:01"
     },
     "https://github.com/klinter007/klinter_nodes": {
@@ -2420,7 +2528,7 @@
         "last_update": "2024-01-01 03:30:49"
     },
     "https://github.com/kohya-ss/ControlNet-LLLite-ComfyUI": {
-        "stars": 137,
+        "stars": 142,
         "last_update": "2024-05-22 20:44:44"
     },
     "https://github.com/komojini/ComfyUI_SDXL_DreamBooth_LoRA_CustomNodes": {
@@ -2428,7 +2536,7 @@
         "last_update": "2024-05-22 21:34:27"
     },
     "https://github.com/komojini/komojini-comfyui-nodes": {
-        "stars": 58,
+        "stars": 59,
         "last_update": "2024-05-22 21:34:39"
     },
     "https://github.com/kunieone/ComfyUI_alkaid": {
@@ -2436,8 +2544,12 @@
         "last_update": "2024-05-23 01:10:21"
     },
     "https://github.com/kwaroran/abg-comfyui": {
-        "stars": 20,
+        "stars": 21,
         "last_update": "2024-05-22 18:19:51"
+    },
+    "https://github.com/l20richo/ComfyUI-Azure-Blob-Storage": {
+        "stars": 1,
+        "last_update": "2024-06-02 12:21:22"
     },
     "https://github.com/laksjdjf/Batch-Condition-ComfyUI": {
         "stars": 1,
@@ -2452,7 +2564,7 @@
         "last_update": "2024-05-22 20:42:29"
     },
     "https://github.com/laksjdjf/attention-couple-ComfyUI": {
-        "stars": 55,
+        "stars": 56,
         "last_update": "2024-03-25 03:38:55"
     },
     "https://github.com/laksjdjf/cd-tuner_negpip-ComfyUI": {
@@ -2467,6 +2579,10 @@
         "stars": 9,
         "last_update": "2024-05-22 20:41:41"
     },
+    "https://github.com/larsupb/LoRA-Merger-ComfyUI": {
+        "stars": 7,
+        "last_update": "2024-05-30 22:35:50"
+    },
     "https://github.com/leoleelxh/ComfyUI-LLMs": {
         "stars": 6,
         "last_update": "2024-03-07 07:34:10"
@@ -2477,7 +2593,7 @@
     },
     "https://github.com/linshier/comfyui-remote-tools": {
         "stars": 1,
-        "last_update": "2024-05-23 06:38:45"
+        "last_update": "2024-05-28 07:44:23"
     },
     "https://github.com/liusida/ComfyUI-AutoCropFaces": {
         "stars": 11,
@@ -2488,27 +2604,27 @@
         "last_update": "2024-04-07 11:33:02"
     },
     "https://github.com/liusida/ComfyUI-Login": {
-        "stars": 25,
-        "last_update": "2024-05-23 03:11:10"
+        "stars": 27,
+        "last_update": "2024-06-02 11:37:54"
     },
     "https://github.com/ljleb/comfy-mecha": {
-        "stars": 7,
+        "stars": 8,
         "last_update": "2024-05-26 14:57:05"
     },
     "https://github.com/lks-ai/anynode": {
-        "stars": 79,
-        "last_update": "2024-05-27 03:01:47"
+        "stars": 265,
+        "last_update": "2024-06-02 10:15:02"
     },
     "https://github.com/lldacing/comfyui-easyapi-nodes": {
         "stars": 24,
         "last_update": "2024-05-24 02:51:26"
     },
     "https://github.com/logtd/ComfyUI-FLATTEN": {
-        "stars": 57,
-        "last_update": "2024-05-22 00:16:32"
+        "stars": 58,
+        "last_update": "2024-05-31 22:18:36"
     },
     "https://github.com/logtd/ComfyUI-InstanceDiffusion": {
-        "stars": 120,
+        "stars": 131,
         "last_update": "2024-05-22 00:02:08"
     },
     "https://github.com/logtd/ComfyUI-InversedNoise": {
@@ -2544,24 +2660,24 @@
         "last_update": "2024-04-28 03:29:42"
     },
     "https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch": {
-        "stars": 101,
-        "last_update": "2024-05-26 20:22:41"
+        "stars": 104,
+        "last_update": "2024-06-02 06:50:05"
     },
     "https://github.com/lquesada/ComfyUI-Prompt-Combinator": {
         "stars": 17,
         "last_update": "2024-05-25 18:04:20"
     },
     "https://github.com/ltdrdata/ComfyUI-Impact-Pack": {
-        "stars": 1284,
-        "last_update": "2024-05-27 02:39:51"
+        "stars": 1312,
+        "last_update": "2024-06-02 12:41:35"
     },
     "https://github.com/ltdrdata/ComfyUI-Inspire-Pack": {
-        "stars": 257,
-        "last_update": "2024-05-26 06:50:00"
+        "stars": 269,
+        "last_update": "2024-06-02 12:41:49"
     },
     "https://github.com/ltdrdata/ComfyUI-Manager": {
-        "stars": 3953,
-        "last_update": "2024-05-27 10:14:28"
+        "stars": 4048,
+        "last_update": "2024-06-02 15:15:33"
     },
     "https://github.com/m-sokes/ComfyUI-Sokes-Nodes": {
         "stars": 1,
@@ -2572,7 +2688,7 @@
         "last_update": "2024-05-23 22:01:38"
     },
     "https://github.com/mape/ComfyUI-mape-Helpers": {
-        "stars": 104,
+        "stars": 107,
         "last_update": "2024-05-22 23:19:13"
     },
     "https://github.com/maracman/ComfyUI-SubjectStyle-CSV": {
@@ -2592,23 +2708,23 @@
         "last_update": "2024-05-22 22:23:10"
     },
     "https://github.com/matan1905/ComfyUI-Serving-Toolkit": {
-        "stars": 35,
+        "stars": 36,
         "last_update": "2024-05-22 21:26:46"
     },
     "https://github.com/mav-rik/facerestore_cf": {
-        "stars": 146,
+        "stars": 147,
         "last_update": "2024-05-22 20:53:23"
     },
     "https://github.com/mbrostami/ComfyUI-HF": {
-        "stars": 8,
-        "last_update": "2024-05-22 23:24:56"
+        "stars": 11,
+        "last_update": "2024-05-27 21:45:33"
     },
     "https://github.com/mbrostami/ComfyUI-TITrain": {
-        "stars": 5,
-        "last_update": "2024-05-23 01:24:28"
+        "stars": 6,
+        "last_update": "2024-05-27 21:50:06"
     },
     "https://github.com/mcmonkeyprojects/sd-dynamic-thresholding": {
-        "stars": 1043,
+        "stars": 1046,
         "last_update": "2024-05-24 16:09:17"
     },
     "https://github.com/meap158/ComfyUI-Background-Replacement": {
@@ -2624,8 +2740,8 @@
         "last_update": "2024-05-22 20:43:37"
     },
     "https://github.com/melMass/comfy_mtb": {
-        "stars": 316,
-        "last_update": "2024-05-21 10:51:41"
+        "stars": 321,
+        "last_update": "2024-05-27 20:28:58"
     },
     "https://github.com/mephisto83/petty-paint-comfyui-node": {
         "stars": 1,
@@ -2648,7 +2764,7 @@
         "last_update": "2024-05-22 18:19:38"
     },
     "https://github.com/mikkel/ComfyUI-text-overlay": {
-        "stars": 25,
+        "stars": 26,
         "last_update": "2024-05-22 21:13:59"
     },
     "https://github.com/mikkel/comfyui-mask-boundingbox": {
@@ -2656,12 +2772,16 @@
         "last_update": "2024-05-22 21:26:23"
     },
     "https://github.com/mirabarukaso/ComfyUI_Mira": {
-        "stars": 15,
+        "stars": 16,
         "last_update": "2024-05-21 17:40:48"
     },
     "https://github.com/modusCell/ComfyUI-dimension-node-modusCell": {
         "stars": 0,
         "last_update": "2024-05-22 22:08:50"
+    },
+    "https://github.com/moyi7712/ComfyUI_Seamless_Patten": {
+        "stars": 7,
+        "last_update": "2024-05-28 16:13:06"
     },
     "https://github.com/mozman/ComfyUI_mozman_nodes": {
         "stars": 0,
@@ -2672,8 +2792,8 @@
         "last_update": "2023-08-14 11:27:09"
     },
     "https://github.com/muzi12888/ComfyUI-PoseKeypoint-Mask": {
-        "stars": 3,
-        "last_update": "2024-05-24 17:08:10"
+        "stars": 4,
+        "last_update": "2024-05-28 14:09:23"
     },
     "https://github.com/nagolinc/ComfyUI_FastVAEDecorder_SDXL": {
         "stars": 2,
@@ -2692,11 +2812,11 @@
         "last_update": "2024-05-23 01:16:28"
     },
     "https://github.com/nathannlu/ComfyUI-Cloud": {
-        "stars": 122,
-        "last_update": "2024-05-26 05:54:53"
+        "stars": 125,
+        "last_update": "2024-05-31 01:45:45"
     },
     "https://github.com/nathannlu/ComfyUI-Pets": {
-        "stars": 33,
+        "stars": 35,
         "last_update": "2024-03-31 23:55:42"
     },
     "https://github.com/natto-maki/ComfyUI-NegiTools": {
@@ -2715,6 +2835,10 @@
         "stars": 0,
         "last_update": "2024-05-27 15:42:25"
     },
+    "https://github.com/nirex0/ComfyUI_pytorch_openpose": {
+        "stars": 2,
+        "last_update": "2024-05-29 10:51:41"
+    },
     "https://github.com/nkchocoai/ComfyUI-Dart": {
         "stars": 15,
         "last_update": "2024-05-22 23:11:22"
@@ -2724,8 +2848,8 @@
         "last_update": "2024-05-22 23:10:42"
     },
     "https://github.com/nkchocoai/ComfyUI-SaveImageWithMetaData": {
-        "stars": 7,
-        "last_update": "2024-05-22 23:11:09"
+        "stars": 8,
+        "last_update": "2024-05-27 13:41:13"
     },
     "https://github.com/nkchocoai/ComfyUI-SizeFromPresets": {
         "stars": 4,
@@ -2740,11 +2864,11 @@
         "last_update": "2024-05-22 21:26:12"
     },
     "https://github.com/nosiu/comfyui-instantId-faceswap": {
-        "stars": 155,
+        "stars": 157,
         "last_update": "2024-05-22 23:21:38"
     },
     "https://github.com/noxinias/ComfyUI_NoxinNodes": {
-        "stars": 5,
+        "stars": 6,
         "last_update": "2024-05-22 21:24:24"
     },
     "https://github.com/ntc-ai/ComfyUI-DARE-LoRA-Merge": {
@@ -2752,8 +2876,8 @@
         "last_update": "2024-05-22 22:22:14"
     },
     "https://github.com/nullquant/ComfyUI-BrushNet": {
-        "stars": 272,
-        "last_update": "2024-05-25 13:46:29"
+        "stars": 294,
+        "last_update": "2024-05-31 15:34:14"
     },
     "https://github.com/olduvai-jp/ComfyUI-HfLoader": {
         "stars": 1,
@@ -2788,15 +2912,15 @@
         "last_update": "2024-03-27 14:08:21"
     },
     "https://github.com/palant/image-resize-comfyui": {
-        "stars": 54,
+        "stars": 55,
         "last_update": "2024-01-18 20:59:55"
     },
     "https://github.com/palant/integrated-nodes-comfyui": {
-        "stars": 30,
+        "stars": 31,
         "last_update": "2023-12-27 22:52:00"
     },
     "https://github.com/pamparamm/sd-perturbed-attention": {
-        "stars": 161,
+        "stars": 164,
         "last_update": "2024-05-25 17:44:47"
     },
     "https://github.com/pants007/comfy-pants": {
@@ -2808,7 +2932,7 @@
         "last_update": "2024-05-22 17:39:09"
     },
     "https://github.com/philz1337x/ComfyUI-ClarityAI": {
-        "stars": 33,
+        "stars": 35,
         "last_update": "2024-05-23 01:19:05"
     },
     "https://github.com/phineas-pta/comfyui-auto-nodes-layout": {
@@ -2836,12 +2960,16 @@
         "last_update": "2024-05-22 22:19:32"
     },
     "https://github.com/portu-sim/comfyui-bmab": {
-        "stars": 9,
-        "last_update": "2024-05-26 17:23:21"
+        "stars": 19,
+        "last_update": "2024-06-02 07:32:45"
     },
     "https://github.com/portu-sim/comfyui_bmab": {
-        "stars": 9,
-        "last_update": "2024-05-26 17:23:21"
+        "stars": 19,
+        "last_update": "2024-06-02 07:32:45"
+    },
+    "https://github.com/prodogape/ComfyUI-EasyOCR": {
+        "stars": 4,
+        "last_update": "2024-06-01 11:11:25"
     },
     "https://github.com/prodogape/ComfyUI-Minio": {
         "stars": 1,
@@ -2852,11 +2980,11 @@
         "last_update": "2024-05-22 23:11:46"
     },
     "https://github.com/pythongosssss/ComfyUI-Custom-Scripts": {
-        "stars": 1218,
-        "last_update": "2024-05-27 09:18:36"
+        "stars": 1247,
+        "last_update": "2024-06-01 16:13:08"
     },
     "https://github.com/pythongosssss/ComfyUI-WD14-Tagger": {
-        "stars": 377,
+        "stars": 388,
         "last_update": "2024-05-25 18:12:08"
     },
     "https://github.com/qwixiwp/queuetools": {
@@ -2884,15 +3012,15 @@
         "last_update": "2024-05-22 22:13:43"
     },
     "https://github.com/receyuki/comfyui-prompt-reader-node": {
-        "stars": 180,
-        "last_update": "2024-05-22 20:57:18"
+        "stars": 189,
+        "last_update": "2024-05-27 18:05:52"
     },
     "https://github.com/redhottensors/ComfyUI-Prediction": {
         "stars": 9,
         "last_update": "2024-05-13 19:58:16"
     },
     "https://github.com/rgthree/rgthree-comfy": {
-        "stars": 618,
+        "stars": 635,
         "last_update": "2024-05-25 18:33:07"
     },
     "https://github.com/richinsley/Comfy-LFO": {
@@ -2908,23 +3036,23 @@
         "last_update": "2024-01-23 17:12:45"
     },
     "https://github.com/romeobuilderotti/ComfyUI-PNG-Metadata": {
-        "stars": 3,
+        "stars": 4,
         "last_update": "2024-05-22 21:29:25"
     },
     "https://github.com/ronniebasak/ComfyUI-Tara-LLM-Integration": {
-        "stars": 62,
+        "stars": 63,
         "last_update": "2024-05-09 06:26:16"
     },
     "https://github.com/royceschultz/ComfyUI-Notifications": {
-        "stars": 3,
+        "stars": 4,
         "last_update": "2024-05-23 01:23:16"
     },
     "https://github.com/royceschultz/ComfyUI-TranscriptionTools": {
-        "stars": 11,
+        "stars": 12,
         "last_update": "2024-05-23 01:10:10"
     },
     "https://github.com/rui40000/RUI-Nodes": {
-        "stars": 13,
+        "stars": 14,
         "last_update": "2024-05-22 22:12:26"
     },
     "https://github.com/ruiqutech/ComfyUI-RuiquNodes": {
@@ -2932,12 +3060,12 @@
         "last_update": "2024-05-23 01:21:50"
     },
     "https://github.com/runtime44/comfyui_r44_nodes": {
-        "stars": 20,
+        "stars": 21,
         "last_update": "2024-05-23 01:18:22"
     },
     "https://github.com/saftle/suplex_comfy_nodes": {
         "stars": 0,
-        "last_update": "2024-05-23 01:20:53"
+        "last_update": "2024-05-29 13:09:25"
     },
     "https://github.com/sdfxai/SDFXBridgeForComfyUI": {
         "stars": 2,
@@ -2956,7 +3084,7 @@
         "last_update": "2024-05-22 21:34:15"
     },
     "https://github.com/shadowcz007/comfyui-Image-reward": {
-        "stars": 17,
+        "stars": 18,
         "last_update": "2024-03-25 05:41:04"
     },
     "https://github.com/shadowcz007/comfyui-consistency-decoder": {
@@ -2964,11 +3092,11 @@
         "last_update": "2024-02-02 01:46:54"
     },
     "https://github.com/shadowcz007/comfyui-mixlab-nodes": {
-        "stars": 813,
-        "last_update": "2024-05-25 14:50:24"
+        "stars": 827,
+        "last_update": "2024-06-02 14:38:20"
     },
     "https://github.com/shadowcz007/comfyui-ultralytics-yolo": {
-        "stars": 14,
+        "stars": 15,
         "last_update": "2024-05-21 19:28:20"
     },
     "https://github.com/shi3z/ComfyUI_Memeplex_DALLE": {
@@ -2980,11 +3108,11 @@
         "last_update": "2024-04-17 09:02:51"
     },
     "https://github.com/shiimizu/ComfyUI-TiledDiffusion": {
-        "stars": 182,
+        "stars": 189,
         "last_update": "2024-05-14 22:01:41"
     },
     "https://github.com/shiimizu/ComfyUI_smZNodes": {
-        "stars": 137,
+        "stars": 138,
         "last_update": "2024-05-22 18:13:30"
     },
     "https://github.com/shingo1228/ComfyUI-SDXL-EmptyLatentImage": {
@@ -3003,9 +3131,13 @@
         "stars": 1,
         "last_update": "2024-05-23 00:21:08"
     },
+    "https://github.com/shinich39/comfyui-ramdom-node": {
+        "stars": 2,
+        "last_update": "2024-05-29 06:05:30"
+    },
     "https://github.com/shinich39/comfyui-ramdom-node-39": {
         "stars": 2,
-        "last_update": "2024-04-26 23:38:27"
+        "last_update": "2024-05-29 06:05:30"
     },
     "https://github.com/shockz0rz/ComfyUI_InterpolateEverything": {
         "stars": 22,
@@ -3016,7 +3148,7 @@
         "last_update": "2024-05-22 18:14:05"
     },
     "https://github.com/siliconflow/onediff_comfy_nodes": {
-        "stars": 10,
+        "stars": 11,
         "last_update": "2024-05-22 22:23:22"
     },
     "https://github.com/sipherxyz/comfyui-art-venture": {
@@ -3025,7 +3157,7 @@
     },
     "https://github.com/skfoo/ComfyUI-Coziness": {
         "stars": 21,
-        "last_update": "2024-05-22 20:47:24"
+        "last_update": "2024-05-27 18:24:29"
     },
     "https://github.com/smagnetize/kb-comfyui-nodes": {
         "stars": 0,
@@ -3040,19 +3172,19 @@
         "last_update": "2024-05-24 13:18:51"
     },
     "https://github.com/smthemex/ComfyUI_HiDiffusion_Pro": {
-        "stars": 12,
-        "last_update": "2024-05-21 03:41:52"
+        "stars": 17,
+        "last_update": "2024-06-01 07:39:21"
     },
     "https://github.com/smthemex/ComfyUI_ID_Animator": {
         "stars": 8,
         "last_update": "2024-05-17 13:53:57"
     },
     "https://github.com/smthemex/ComfyUI_Llama3_8B": {
-        "stars": 11,
+        "stars": 14,
         "last_update": "2024-05-23 09:00:02"
     },
     "https://github.com/smthemex/ComfyUI_ParlerTTS": {
-        "stars": 16,
+        "stars": 17,
         "last_update": "2024-05-15 13:48:05"
     },
     "https://github.com/smthemex/ComfyUI_Pic2Story": {
@@ -3064,15 +3196,15 @@
         "last_update": "2024-05-21 11:53:31"
     },
     "https://github.com/smthemex/ComfyUI_StoryDiffusion": {
-        "stars": 1,
-        "last_update": "2024-05-27 07:43:28"
+        "stars": 12,
+        "last_update": "2024-05-31 09:30:47"
     },
     "https://github.com/space-nuko/ComfyUI-Disco-Diffusion": {
         "stars": 42,
         "last_update": "2024-05-22 18:10:36"
     },
     "https://github.com/space-nuko/ComfyUI-OpenPose-Editor": {
-        "stars": 144,
+        "stars": 148,
         "last_update": "2024-05-22 18:10:49"
     },
     "https://github.com/space-nuko/nui-suite": {
@@ -3080,23 +3212,27 @@
         "last_update": "2024-05-22 18:11:04"
     },
     "https://github.com/spacepxl/ComfyUI-HQ-Image-Save": {
-        "stars": 27,
+        "stars": 28,
         "last_update": "2024-05-22 20:55:44"
     },
     "https://github.com/spacepxl/ComfyUI-Image-Filters": {
-        "stars": 70,
+        "stars": 73,
         "last_update": "2024-05-22 20:56:05"
     },
     "https://github.com/spacepxl/ComfyUI-RAVE": {
-        "stars": 78,
+        "stars": 79,
         "last_update": "2024-05-22 20:56:19"
+    },
+    "https://github.com/spacepxl/ComfyUI-StyleGan": {
+        "stars": 2,
+        "last_update": "2024-05-29 07:13:07"
     },
     "https://github.com/spinagon/ComfyUI-seam-carving": {
         "stars": 14,
         "last_update": "2024-05-23 05:07:00"
     },
     "https://github.com/spinagon/ComfyUI-seamless-tiling": {
-        "stars": 69,
+        "stars": 71,
         "last_update": "2024-05-23 05:03:42"
     },
     "https://github.com/spro/comfyui-mirror": {
@@ -3104,11 +3240,11 @@
         "last_update": "2024-05-22 20:50:25"
     },
     "https://github.com/ssitu/ComfyUI_UltimateSDUpscale": {
-        "stars": 577,
+        "stars": 587,
         "last_update": "2024-05-22 18:09:32"
     },
     "https://github.com/ssitu/ComfyUI_fabric": {
-        "stars": 78,
+        "stars": 80,
         "last_update": "2024-05-22 18:10:19"
     },
     "https://github.com/ssitu/ComfyUI_restart_sampling": {
@@ -3120,16 +3256,16 @@
         "last_update": "2024-05-22 18:10:03"
     },
     "https://github.com/stavsap/comfyui-ollama": {
-        "stars": 159,
-        "last_update": "2024-05-24 18:23:12"
+        "stars": 169,
+        "last_update": "2024-05-27 20:12:59"
     },
     "https://github.com/storyicon/comfyui_musev_evolved": {
-        "stars": 9,
+        "stars": 13,
         "last_update": "2024-05-23 09:09:50"
     },
     "https://github.com/storyicon/comfyui_segment_anything": {
-        "stars": 469,
-        "last_update": "2024-05-24 05:01:05"
+        "stars": 479,
+        "last_update": "2024-05-31 07:36:30"
     },
     "https://github.com/strimmlarn/ComfyUI_Strimmlarns_aesthetic_score": {
         "stars": 23,
@@ -3140,7 +3276,7 @@
         "last_update": "2024-05-22 22:18:18"
     },
     "https://github.com/styler00dollar/ComfyUI-sudo-latent-upscale": {
-        "stars": 25,
+        "stars": 26,
         "last_update": "2024-05-22 22:18:07"
     },
     "https://github.com/subtleGradient/TinkerBot-tech-for-ComfyUI-Touchpad": {
@@ -3152,11 +3288,11 @@
         "last_update": "2024-05-16 00:13:17"
     },
     "https://github.com/sugarkwork/comfyui_tag_fillter": {
-        "stars": 11,
-        "last_update": "2024-05-24 00:19:24"
+        "stars": 12,
+        "last_update": "2024-05-27 13:38:24"
     },
     "https://github.com/syllebra/bilbox-comfyui": {
-        "stars": 76,
+        "stars": 77,
         "last_update": "2024-05-22 20:40:43"
     },
     "https://github.com/sylym/comfy_vid2vid": {
@@ -3172,27 +3308,23 @@
         "last_update": "2024-04-07 21:32:38"
     },
     "https://github.com/talesofai/comfyui-browser": {
-        "stars": 382,
+        "stars": 396,
         "last_update": "2024-05-21 20:51:18"
     },
-    "https://github.com/tankucc1no/ComfyUI-Dragdiffusion": {
-        "stars": 0,
-        "last_update": "2024-05-27 06:52:58"
-    },
     "https://github.com/teward/ComfyUI-Helper-Nodes": {
-        "stars": 3,
+        "stars": 4,
         "last_update": "2024-05-23 01:22:01"
     },
     "https://github.com/theUpsider/ComfyUI-Logic": {
-        "stars": 86,
+        "stars": 90,
         "last_update": "2024-05-22 20:35:47"
     },
     "https://github.com/theUpsider/ComfyUI-Styles_CSV_Loader": {
-        "stars": 26,
+        "stars": 27,
         "last_update": "2024-05-22 20:31:14"
     },
     "https://github.com/thecooltechguy/ComfyUI-ComfyRun": {
-        "stars": 76,
+        "stars": 78,
         "last_update": "2024-05-22 21:33:11"
     },
     "https://github.com/thecooltechguy/ComfyUI-ComfyWorkflows": {
@@ -3200,19 +3332,23 @@
         "last_update": "2024-05-22 21:33:47"
     },
     "https://github.com/thecooltechguy/ComfyUI-MagicAnimate": {
-        "stars": 193,
+        "stars": 194,
         "last_update": "2024-05-22 21:33:35"
     },
     "https://github.com/thecooltechguy/ComfyUI-Stable-Video-Diffusion": {
         "stars": 274,
         "last_update": "2024-05-24 22:14:42"
     },
+    "https://github.com/tmagara/ComfyUI-Prediction-Boost": {
+        "stars": 0,
+        "last_update": "2024-05-29 23:30:04"
+    },
     "https://github.com/tocubed/ComfyUI-AudioReactor": {
         "stars": 8,
         "last_update": "2024-05-22 22:21:57"
     },
     "https://github.com/toyxyz/ComfyUI_toyxyz_test_nodes": {
-        "stars": 422,
+        "stars": 423,
         "last_update": "2024-05-21 09:02:58"
     },
     "https://github.com/traugdor/ComfyUI-quadMoons-nodes": {
@@ -3228,7 +3364,7 @@
         "last_update": "2024-05-23 01:27:29"
     },
     "https://github.com/tsogzark/ComfyUI-load-image-from-url": {
-        "stars": 3,
+        "stars": 4,
         "last_update": "2024-04-16 09:07:22"
     },
     "https://github.com/ttulttul/ComfyUI-Iterative-Mixer": {
@@ -3236,8 +3372,8 @@
         "last_update": "2024-05-22 22:17:20"
     },
     "https://github.com/ttulttul/ComfyUI-Tensor-Operations": {
-        "stars": 4,
-        "last_update": "2024-05-22 22:17:32"
+        "stars": 5,
+        "last_update": "2024-05-30 20:30:02"
     },
     "https://github.com/turkyden/ComfyUI-Comic": {
         "stars": 1,
@@ -3252,7 +3388,7 @@
         "last_update": "2023-10-21 23:02:19"
     },
     "https://github.com/twri/sdxl_prompt_styler": {
-        "stars": 574,
+        "stars": 584,
         "last_update": "2024-05-22 18:16:58"
     },
     "https://github.com/txt2any/ComfyUI-PromptOrganizer": {
@@ -3260,11 +3396,11 @@
         "last_update": "2024-05-23 01:10:33"
     },
     "https://github.com/ty0x2333/ComfyUI-Dev-Utils": {
-        "stars": 30,
+        "stars": 31,
         "last_update": "2024-05-23 01:13:55"
     },
     "https://github.com/tzwm/comfyui-profiler": {
-        "stars": 37,
+        "stars": 38,
         "last_update": "2024-01-12 07:38:40"
     },
     "https://github.com/uarefans/ComfyUI-Fans": {
@@ -3284,8 +3420,8 @@
         "last_update": "2024-04-09 01:57:14"
     },
     "https://github.com/victorchall/comfyui_webcamcapture": {
-        "stars": 2,
-        "last_update": "2024-05-23 00:11:07"
+        "stars": 4,
+        "last_update": "2024-05-31 18:01:11"
     },
     "https://github.com/vienteck/ComfyUI-Chat-GPT-Integration": {
         "stars": 26,
@@ -3293,11 +3429,15 @@
     },
     "https://github.com/violet-chen/comfyui-psd2png": {
         "stars": 12,
-        "last_update": "2024-05-22 22:14:19"
+        "last_update": "2024-06-02 05:07:19"
     },
     "https://github.com/viperyl/ComfyUI-BiRefNet": {
-        "stars": 147,
+        "stars": 149,
         "last_update": "2024-05-23 00:18:06"
+    },
+    "https://github.com/viperyl/ComfyUI-RGT": {
+        "stars": 1,
+        "last_update": "2024-06-01 04:59:55"
     },
     "https://github.com/vivax3794/ComfyUI-Vivax-Nodes": {
         "stars": 3,
@@ -3308,7 +3448,7 @@
         "last_update": "2024-05-23 00:14:03"
     },
     "https://github.com/wallish77/wlsh_nodes": {
-        "stars": 75,
+        "stars": 76,
         "last_update": "2024-05-22 18:21:28"
     },
     "https://github.com/wandbrandon/comfyui-pixel": {
@@ -3328,7 +3468,7 @@
         "last_update": "2024-05-23 03:43:08"
     },
     "https://github.com/whmc76/ComfyUI-Openpose-Editor-Plus": {
-        "stars": 14,
+        "stars": 16,
         "last_update": "2024-05-22 21:28:27"
     },
     "https://github.com/wmatson/easy-comfy-nodes": {
@@ -3336,12 +3476,16 @@
         "last_update": "2024-05-15 23:10:21"
     },
     "https://github.com/wolfden/ComfyUi_PromptStylers": {
-        "stars": 59,
+        "stars": 63,
         "last_update": "2024-05-22 18:17:46"
     },
     "https://github.com/wolfden/ComfyUi_String_Function_Tree": {
         "stars": 7,
         "last_update": "2024-05-22 18:29:16"
+    },
+    "https://github.com/wujm424606/ComfyUi-Ollama-YN": {
+        "stars": 7,
+        "last_update": "2024-05-15 03:38:37"
     },
     "https://github.com/wutipong/ComfyUI-TextUtils": {
         "stars": 1,
@@ -3352,19 +3496,23 @@
         "last_update": "2024-05-22 22:22:25"
     },
     "https://github.com/xXAdonesXx/NodeGPT": {
-        "stars": 316,
+        "stars": 318,
         "last_update": "2024-02-01 23:20:08"
     },
     "https://github.com/xiaoxiaodesha/hd_node": {
         "stars": 7,
         "last_update": "2024-05-22 23:25:32"
     },
+    "https://github.com/xliry/ComfyUI_SendDiscord": {
+        "stars": 0,
+        "last_update": "2024-05-23 02:21:38"
+    },
     "https://github.com/xuhongming251/ComfyUI-GPEN": {
         "stars": 2,
         "last_update": "2024-05-25 03:32:25"
     },
     "https://github.com/xuhongming251/ComfyUI-MuseTalkUtils": {
-        "stars": 1,
+        "stars": 2,
         "last_update": "2024-05-25 03:30:05"
     },
     "https://github.com/yffyhk/comfyui_auto_danbooru": {
@@ -3372,8 +3520,8 @@
         "last_update": "2024-05-22 23:23:03"
     },
     "https://github.com/yolain/ComfyUI-Easy-Use": {
-        "stars": 414,
-        "last_update": "2024-05-26 13:41:14"
+        "stars": 437,
+        "last_update": "2024-06-01 18:22:49"
     },
     "https://github.com/yolanother/DTAIComfyImageSubmit": {
         "stars": 1,
@@ -3404,8 +3552,8 @@
         "last_update": "2024-05-23 17:55:42"
     },
     "https://github.com/yuvraj108c/ComfyUI-Depth-Anything-Tensorrt": {
-        "stars": 49,
-        "last_update": "2024-05-22 23:17:15"
+        "stars": 52,
+        "last_update": "2024-05-31 05:52:17"
     },
     "https://github.com/yuvraj108c/ComfyUI-PiperTTS": {
         "stars": 24,
@@ -3416,16 +3564,16 @@
         "last_update": "2024-05-22 23:16:51"
     },
     "https://github.com/yuvraj108c/ComfyUI-Upscaler-Tensorrt": {
-        "stars": 25,
-        "last_update": "2024-05-22 23:17:38"
+        "stars": 28,
+        "last_update": "2024-05-31 05:50:59"
     },
     "https://github.com/yuvraj108c/ComfyUI-Vsgan": {
         "stars": 2,
         "last_update": "2024-05-22 23:17:02"
     },
     "https://github.com/yuvraj108c/ComfyUI-Whisper": {
-        "stars": 42,
-        "last_update": "2024-05-22 23:16:40"
+        "stars": 45,
+        "last_update": "2024-05-31 05:59:22"
     },
     "https://github.com/zcfrank1st/Comfyui-Toolbox": {
         "stars": 4,
@@ -3445,18 +3593,18 @@
     },
     "https://github.com/zfkun/ComfyUI_zfkun": {
         "stars": 12,
-        "last_update": "2024-05-22 22:07:55"
+        "last_update": "2024-05-27 11:21:51"
     },
     "https://github.com/zhangp365/ComfyUI-utils-nodes": {
         "stars": 6,
-        "last_update": "2024-05-23 15:11:07"
+        "last_update": "2024-06-02 08:01:54"
     },
     "https://github.com/zhongpei/ComfyUI-InstructIR": {
         "stars": 57,
         "last_update": "2024-05-22 23:19:43"
     },
     "https://github.com/zhongpei/Comfyui_image2prompt": {
-        "stars": 205,
+        "stars": 210,
         "last_update": "2024-05-22 23:19:30"
     },
     "https://github.com/zhuanqianfish/ComfyUI-EasyNode": {
@@ -3464,7 +3612,7 @@
         "last_update": "2024-04-04 00:20:08"
     },
     "https://github.com/zombieyang/sd-ppp": {
-        "stars": 5,
-        "last_update": "2024-05-25 07:39:28"
+        "stars": 7,
+        "last_update": "2024-05-27 15:07:35"
     }
 }
