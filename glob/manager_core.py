@@ -420,7 +420,7 @@ def git_repo_has_updates(path, do_fetch=False, do_update=False):
     if platform.system() == "Windows":
         updated, success = __win_check_git_update(path, do_fetch, do_update)
         if updated and success:
-            execute_install_script(None, path, lazy_mode=True)
+            execute_install_script(None, path, lazy_mode=False)
         return updated, success
     else:
         # Fetch the latest commits from the remote repository
@@ -815,7 +815,7 @@ def gitclone_update(files, instant_execution=False, skip_script=False, msg_prefi
                     if not execute_install_script(url, repo_path, lazy_mode=False, instant_execution=True):
                         return False
                 else:
-                    if not execute_install_script(url, repo_path, lazy_mode=True):
+                    if not execute_install_script(url, repo_path, lazy_mode=False):
                         return False
 
         except Exception as e:
