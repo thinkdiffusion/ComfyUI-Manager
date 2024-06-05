@@ -21,6 +21,8 @@ glob_path = os.path.join(os.path.dirname(__file__))  # ComfyUI-Manager/glob
 sys.path.append(glob_path)
 
 import cm_global
+cm_global.pip_overrides = {}
+cm_global.pip_downgrade_blacklist = {}
 from manager_util import *
 
 version = [2, 36]
@@ -53,12 +55,12 @@ pip_map = None
 
 
 def remap_pip_package(pkg):
-    #if pkg in cm_global.pip_overrides:
-    #    res = cm_global.pip_overrides[pkg]
-    #    print(f"[ComfyUI-Manager] '{pkg}' is remapped to '{res}'")
-    #    return res
-    #else:
-    return pkg
+    if pkg in cm_global.pip_overrides:
+        res = cm_global.pip_overrides[pkg]
+        print(f"[ComfyUI-Manager] '{pkg}' is remapped to '{res}'")
+        return res
+    else:
+        return pkg
 
 
 def get_installed_packages():
