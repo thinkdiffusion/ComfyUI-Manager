@@ -28,7 +28,7 @@ version_str = f"V{version[0]}.{version[1]}" + (f'.{version[2]}' if len(version) 
 
 comfyui_manager_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 custom_nodes_path = "/home/ubuntu/user_data/comfyui/custom_nodes"
-comfy_path = os.path.abspath(os.path.join(custom_nodes_path, '..'))
+comfy_path = "/home/ubuntu/ComfyUI"
 channel_list_path = os.path.join(comfyui_manager_path, 'channels.list')
 config_path = os.path.join(comfyui_manager_path, "config.ini")
 startup_script_path = os.path.join(comfyui_manager_path, "startup-scripts")
@@ -280,6 +280,7 @@ def switch_to_default_branch(repo):
 
 
 def try_install_script(url, repo_path, install_cmd, instant_execution=False):
+    print("TD:", "try_install_script")
     if not instant_execution and ((len(install_cmd) > 0 and install_cmd[0].startswith('#')) or (platform.system() == "Windows" and comfy_ui_commit_datetime.date() >= comfy_ui_required_commit_datetime.date())):
         if not os.path.exists(startup_script_path):
             os.makedirs(startup_script_path)
@@ -382,6 +383,7 @@ def __win_check_git_pull(path):
 
 
 def execute_install_script(url, repo_path, lazy_mode=False, instant_execution=False):
+    print("TD:", "execute_install_script")
     install_script_path = os.path.join(repo_path, "install.py")
     requirements_path = os.path.join(repo_path, "requirements.txt")
 
@@ -511,7 +513,9 @@ def is_valid_url(url):
 
 
 def gitclone_install(files, instant_execution=False, msg_prefix=''):
+    print("TD:", "gitclone_install")
     print(f"{msg_prefix}Install: {files}")
+    
     for url in files:
         if not is_valid_url(url):
             print(f"Invalid git url: '{url}'")
@@ -538,7 +542,7 @@ def gitclone_install(files, instant_execution=False, msg_prefix=''):
                 return False
 
         except Exception as e:
-            print(f"Install(git-clone) error: {url} / {e}", file=sys.stderr)
+            print(f"TD:Install(git-clone) error: {url} / {e}", file=sys.stderr)
             return False
 
     print("Installation was successful.")
