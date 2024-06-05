@@ -53,12 +53,12 @@ pip_map = None
 
 
 def remap_pip_package(pkg):
-    if pkg in cm_global.pip_overrides:
-        res = cm_global.pip_overrides[pkg]
-        print(f"[ComfyUI-Manager] '{pkg}' is remapped to '{res}'")
-        return res
-    else:
-        return pkg
+    #if pkg in cm_global.pip_overrides:
+    #    res = cm_global.pip_overrides[pkg]
+    #    print(f"[ComfyUI-Manager] '{pkg}' is remapped to '{res}'")
+    #    return res
+    #else:
+    return pkg
 
 
 def get_installed_packages():
