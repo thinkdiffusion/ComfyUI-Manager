@@ -21,19 +21,16 @@ glob_path = os.path.join(os.path.dirname(__file__))  # ComfyUI-Manager/glob
 sys.path.append(glob_path)
 
 import cm_global
+cm_global.pip_overrides = {}
+cm_global.pip_downgrade_blacklist = {}
 from manager_util import *
 
-version = [2, 51, 8]
+version = [2, 36]
 version_str = f"V{version[0]}.{version[1]}" + (f'.{version[2]}' if len(version) > 2 else '')
 
-
 comfyui_manager_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-custom_nodes_path = os.path.abspath(os.path.join(comfyui_manager_path, '..'))
-
-comfy_path = os.environ.get('COMFYUI_PATH')
-if comfy_path is None:
-    comfy_path = os.path.abspath(os.path.join(custom_nodes_path, '..'))
-
+custom_nodes_path = "/home/ubuntu/user_data/comfyui/custom_nodes"
+comfy_path = "/home/ubuntu/ComfyUI"
 channel_list_path = os.path.join(comfyui_manager_path, 'channels.list')
 config_path = os.path.join(comfyui_manager_path, "config.ini")
 startup_script_path = os.path.join(comfyui_manager_path, "startup-scripts")
@@ -97,14 +94,11 @@ def clear_pip_cache():
 def is_blacklisted(name):
     name = name.strip()
 
-    pattern = r'([^<>!=]+)([<>!=]=?)([^ ]*)'
+    pattern = r'([^<>!=]+)([<>!=]=?)(.*)'
     match = re.search(pattern, name)
 
     if match:
         name = match.group(1)
-
-    if name in cm_global.pip_blacklist:
-        return True
 
     if name in cm_global.pip_downgrade_blacklist:
         pips = get_installed_packages()
@@ -126,14 +120,11 @@ def is_installed(name):
     if name.startswith('#'):
         return True
 
-    pattern = r'([^<>!=]+)([<>!=]=?)([0-9.a-zA-Z]*)'
+    pattern = r'([^<>!=]+)([<>!=]=?)(.*)'
     match = re.search(pattern, name)
 
     if match:
         name = match.group(1)
-
-    if name in cm_global.pip_blacklist:
-        return True
 
     if name in cm_global.pip_downgrade_blacklist:
         pips = get_installed_packages()
@@ -192,9 +183,7 @@ class ManagerFuncs:
             print(f"[ComfyUI-Manager] Unexpected behavior: `{cmd}`")
             return 0
 
-        new_env = os.environ.copy()
-        new_env["COMFYUI_PATH"] = comfy_path
-        subprocess.check_call(cmd, cwd=cwd, env=new_env)
+        subprocess.check_call(cmd, cwd=cwd)
 
         return 0
 
@@ -293,6 +282,7 @@ def switch_to_default_branch(repo):
 
 
 def try_install_script(url, repo_path, install_cmd, instant_execution=False):
+    print("TD:", "try_install_script")
     if not instant_execution and ((len(install_cmd) > 0 and install_cmd[0].startswith('#')) or (platform.system() == "Windows" and comfy_ui_commit_datetime.date() >= comfy_ui_required_commit_datetime.date())):
         if not os.path.exists(startup_script_path):
             os.makedirs(startup_script_path)
@@ -338,8 +328,6 @@ def __win_check_git_update(path, do_fetch=False, do_update=False):
     else:
         command = [sys.executable, git_script_path, "--check", path]
 
-    new_env = os.environ.copy()
-    new_env["COMFYUI_PATH"] = comfy_path
     process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=custom_nodes_path)
     output, _ = process.communicate()
     output = output.decode('utf-8').strip()
@@ -349,10 +337,10 @@ def __win_check_git_update(path, do_fetch=False, do_update=False):
         safedir_path = path.replace('\\', '/')
         try:
             print(f"[ComfyUI-Manager] Try fixing 'dubious repository' error on '{safedir_path}' repo")
-            process = subprocess.Popen(['git', 'config', '--global', '--add', 'safe.directory', safedir_path], env=new_env, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            process = subprocess.Popen(['git', 'config', '--global', '--add', 'safe.directory', safedir_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             output, _ = process.communicate()
 
-            process = subprocess.Popen(command, env=new_env, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            process = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
             output, _ = process.communicate()
             output = output.decode('utf-8').strip()
         except Exception:
@@ -391,14 +379,13 @@ def __win_check_git_update(path, do_fetch=False, do_update=False):
 
 
 def __win_check_git_pull(path):
-    new_env = os.environ.copy()
-    new_env["COMFYUI_PATH"] = comfy_path
     command = [sys.executable, git_script_path, "--pull", path]
-    process = subprocess.Popen(command, env=new_env, cwd=custom_nodes_path)
+    process = subprocess.Popen(command, cwd=custom_nodes_path)
     process.wait()
 
 
 def execute_install_script(url, repo_path, lazy_mode=False, instant_execution=False):
+    print("TD:", "execute_install_script")
     install_script_path = os.path.join(repo_path, "install.py")
     requirements_path = os.path.join(repo_path, "requirements.txt")
 
@@ -410,23 +397,9 @@ def execute_install_script(url, repo_path, lazy_mode=False, instant_execution=Fa
             print("Install: pip packages")
             with open(requirements_path, "r") as requirements_file:
                 for line in requirements_file:
-                    #handle comments
-                    if '#' in line:
-                        if line.strip()[0] == '#':
-                            print("Line is comment...skipping")
-                            continue
-                        else:
-                            line = line.split('#')[0].strip()
-
                     package_name = remap_pip_package(line.strip())
-
                     if package_name and not package_name.startswith('#'):
-                        if '--index-url' in package_name:
-                            s = package_name.split('--index-url')
-                            install_cmd = [sys.executable, "-m", "pip", "install", s[0].strip(), '--index-url', s[1].strip()]
-                        else:
-                            install_cmd = [sys.executable, "-m", "pip", "install", package_name]
-
+                        install_cmd = [sys.executable, "-m", "pip", "install", package_name]
                         if package_name.strip() != "" and not package_name.startswith('#'):
                             try_install_script(url, repo_path, install_cmd, instant_execution=instant_execution)
 
@@ -451,7 +424,7 @@ def git_repo_has_updates(path, do_fetch=False, do_update=False):
     if platform.system() == "Windows":
         updated, success = __win_check_git_update(path, do_fetch, do_update)
         if updated and success:
-            execute_install_script(None, path, lazy_mode=True)
+            execute_install_script(None, path, lazy_mode=False)
         return updated, success
     else:
         # Fetch the latest commits from the remote repository
@@ -535,20 +508,16 @@ class GitProgress(RemoteProgress):
 
 def is_valid_url(url):
     try:
-        # Check for HTTP/HTTPS URL format
         result = urlparse(url)
-        if all([result.scheme, result.netloc]):
-            return True
-    finally:
-        # Check for SSH git URL format
-        pattern = re.compile(r"^(.+@|ssh:\/\/).+:.+$")
-        if pattern.match(url):
-            return True
-    return False
+        return all([result.scheme, result.netloc])
+    except ValueError:
+        return False
 
 
 def gitclone_install(files, instant_execution=False, msg_prefix=''):
+    print("TD:", "gitclone_install")
     print(f"{msg_prefix}Install: {files}")
+
     for url in files:
         if not is_valid_url(url):
             print(f"Invalid git url: '{url}'")
@@ -575,7 +544,7 @@ def gitclone_install(files, instant_execution=False, msg_prefix=''):
                 return False
 
         except Exception as e:
-            print(f"Install(git-clone) error: {url} / {e}", file=sys.stderr)
+            print(f"TD:Install(git-clone) error: {url} / {e}", file=sys.stderr)
             return False
 
     print("Installation was successful.")
@@ -852,7 +821,7 @@ def gitclone_update(files, instant_execution=False, skip_script=False, msg_prefi
                     if not execute_install_script(url, repo_path, lazy_mode=False, instant_execution=True):
                         return False
                 else:
-                    if not execute_install_script(url, repo_path, lazy_mode=True):
+                    if not execute_install_script(url, repo_path, lazy_mode=False):
                         return False
 
         except Exception as e:
@@ -1135,7 +1104,7 @@ async def extract_nodes_from_workflow(filepath, mode='local', channel_url='defau
             if node_name in ['Reroute', 'Note']:
                 continue
 
-            if node_name is not None and not (node_name.startswith('workflow/') or node_name.startswith('workflow>')):
+            if node_name is not None and not node_name.startswith('workflow/'):
                 used_nodes.add(node_name)
 
     if 'nodes' in workflow:
@@ -1234,5 +1203,3 @@ def unzip(model_path):
 
     os.remove(model_path)
     return True
-
-
