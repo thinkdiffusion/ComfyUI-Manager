@@ -587,7 +587,7 @@ async def remove_snapshot(request):
     if not is_allowed_security_level('middle'):
         print(f"ERROR: To use this action, a security_level of `middle or below` is required. Please contact the administrator.")
         return web.Response(status=403)
-    
+
     try:
         target = request.rel_url.query["target"]
 
@@ -605,7 +605,7 @@ async def remove_snapshot(request):
     if not is_allowed_security_level('middle'):
         print(f"ERROR: To use this action, a security_level of `middle or below` is required.  Please contact the administrator.")
         return web.Response(status=403)
-    
+
     try:
         target = request.rel_url.query["target"]
 
@@ -1677,4 +1677,3 @@ cm_global.register_extension('ComfyUI-Manager',
                                  'name': 'ComfyUI Manager',
                                  'nodes': {'Terminal Log //CM'},
                                  'description': 'It provides the ability to manage custom nodes in ComfyUI.', })
-

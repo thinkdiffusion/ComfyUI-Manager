@@ -517,7 +517,6 @@ def is_valid_url(url):
 def gitclone_install(files, instant_execution=False, msg_prefix=''):
     print("TD:", "gitclone_install")
     print(f"{msg_prefix}Install: {files}")
-    
     for url in files:
         if not is_valid_url(url):
             print(f"Invalid git url: '{url}'")
@@ -1203,4 +1202,3 @@ def unzip(model_path):
 
     os.remove(model_path)
     return True
-
