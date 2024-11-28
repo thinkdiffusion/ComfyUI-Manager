@@ -29,7 +29,7 @@ version = [2, 36]
 version_str = f"V{version[0]}.{version[1]}" + (f'.{version[2]}' if len(version) > 2 else '')
 
 comfyui_manager_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
-custom_nodes_path = "/home/ubuntu/user_data/comfyui/custom_nodes"
+custom_nodes_path = "/home/ubuntu/hot-machines/comfyui-automate/user_data/comfyui/custom_nodes"
 comfy_path = "/home/ubuntu/ComfyUI"
 channel_list_path = os.path.join(comfyui_manager_path, 'channels.list')
 config_path = os.path.join(comfyui_manager_path, "config.ini")
