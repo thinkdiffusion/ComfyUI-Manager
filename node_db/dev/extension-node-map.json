@@ -1847,6 +1847,20 @@
             "title_aux": "ComfyUI_Rain"
         }
     ],
+    "https://github.com/chengzeyi/Comfy-WaveSpeed": [
+        [
+            "ApplyFBCacheOnModel",
+            "EnhancedCompileModel",
+            "EnhancedLoadDiffusionModel",
+            "VelocatorCompileModel",
+            "VelocatorLoadAndQuantizeClip",
+            "VelocatorLoadAndQuantizeDiffusionModel",
+            "VelocatorQuantizeModel"
+        ],
+        {
+            "title_aux": "Comfy-WaveSpeed [WIP]"
+        }
+    ],
     "https://github.com/haofanwang/ComfyUI-InstantStyle": [
         [
             "BaseModelLoader",

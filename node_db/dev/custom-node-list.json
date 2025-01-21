@@ -22,6 +22,16 @@
             "description": "A set of nodes for editing images using Flux in ComfyUI"
         },
         {
+            "author": "chengzeyi",
+            "title": "Comfy-WaveSpeed [WIP]",
+            "reference": "https://github.com/chengzeyi/Comfy-WaveSpeed",
+            "files": [
+                "https://github.com/chengzeyi/Comfy-WaveSpeed"
+            ],
+            "install_type": "git-clone",
+            "description": "The all in one inference optimization solution for ComfyUI, universal, flexible, and fast."
+        },
+        {
             "author": "huangyangke",
             "title": "ComfyUI-Kolors-IpadapterFaceId [WIP]",
             "reference": "https://github.com/huangyangke/ComfyUI-Kolors-IpadapterFaceId",
