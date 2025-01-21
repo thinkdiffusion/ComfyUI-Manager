@@ -1384,6 +1384,16 @@
             "description": "AnimateDiff integration for ComfyUI, adapts from sd-webui-animatediff.\n[w/You only need to download one of [a/mm_sd_v14.ckpt](https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v14.ckpt) | [a/mm_sd_v15.ckpt](https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15.ckpt). Put the model weights under %%ComfyUI/custom_nodes/comfyui-animatediff/models%%. DO NOT change model filename.]"
         },
         {
+            "author": "chengzeyi",
+            "title": "Comfy-WaveSpeed [WIP]",
+            "reference": "https://github.com/chengzeyi/Comfy-WaveSpeed",
+            "files": [
+                "https://github.com/chengzeyi/Comfy-WaveSpeed"
+            ],
+            "install_type": "git-clone",
+            "description": "The all in one inference optimization solution for ComfyUI, universal, flexible, and fast."
+        },
+        {
             "author": "twri",
             "title": "SDXL Prompt Styler",
             "id": "twri-styler",

@@ -1188,6 +1188,20 @@
             "title_aux": "AnimateDiff"
         }
     ],
+    "https://github.com/chengzeyi/Comfy-WaveSpeed": [
+        [
+            "ApplyFBCacheOnModel",
+            "EnhancedCompileModel",
+            "EnhancedLoadDiffusionModel",
+            "VelocatorCompileModel",
+            "VelocatorLoadAndQuantizeClip",
+            "VelocatorLoadAndQuantizeDiffusionModel",
+            "VelocatorQuantizeModel"
+        ],
+        {
+            "title_aux": "Comfy-WaveSpeed [WIP]"
+        }
+    ],
     "https://github.com/AshMartian/ComfyUI-DirGir": [
         [
             "Dir_Gir_Looper",
